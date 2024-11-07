@@ -1,0 +1,232 @@
+MAGIC_AUTHER:
+  item_group: magic_auther
+  item:
+    name: "&bmagicsolo"
+    material: player_head
+    lore:
+      - "&7auther"
+MAGIC_REDSTONE_BLOCK:
+  item_group: magic_resource
+  placeable: true
+  item:
+    name: "&c&l魔法红石块"
+    material: redstone_block
+  recipe_type: MAGIC_WORKBENCH
+  recipe:
+    1:
+      material_type: slimefun
+      material: MAGIC_REDSTONE
+    2:
+      material_type: slimefun
+      material: MAGIC_REDSTONE
+    3:
+      material_type: slimefun
+      material: MAGIC_REDSTONE
+    4:
+      material_type: slimefun
+      material: MAGIC_REDSTONE
+    5:
+      material_type: slimefun
+      material: MAGIC_BLISTERING_INGOT_3
+    6:
+      material_type: slimefun
+      material: MAGIC_REDSTONE
+    7:
+      material_type: slimefun
+      material: MAGIC_REDSTONE
+    8:
+      material_type: slimefun
+      material: MAGIC_REDSTONE
+    9:
+      material_type: slimefun
+      material: MAGIC_REDSTONE
+
+MAGIC_BLISTERING_INGOT_3:
+  #魔法起泡锭
+  item_group: magic_resource
+  recipe_type: MAGIC_WORKBENCH
+  item:
+    name: "&6魔法起泡锭"
+    material: iron_ingot
+    lore:
+      - "&8➩ &4需要防化服"
+  radiation: VERY_DEADLY
+  recipe:
+    1:
+      material_type: slimefun
+      material: BLISTERING_INGOT_3
+      amount: 1
+    2:
+      material_type: slimefun
+      material: BLISTERING_INGOT_3
+      amount: 1
+    3:
+      material_type: slimefun
+      material: BLISTERING_INGOT_3
+      amount: 1
+    4:
+      material_type: slimefun
+      material: BLISTERING_INGOT_3
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MAGIC_REDSTONE
+    6:
+      material_type: slimefun
+      material: BLISTERING_INGOT_3
+      amount: 1
+    7:
+      material_type: slimefun
+      material: BLISTERING_INGOT_3
+      amount: 1
+    8:
+      material_type: slimefun
+      material: BLISTERING_INGOT_3
+      amount: 1
+    9:
+      material_type: slimefun
+      material: BLISTERING_INGOT_3
+      amount: 1
+
+MAGIC_GCE_EXCITATION_CHAMBER_PRE:
+  #魔法鼓舞室-半成品
+  item_group: magic_gec
+  recipe_type: MAGIC_WORKBENCH
+  item:
+    name: "&6魔法鼓舞室-半成品"
+    material: blast_furnace
+    lore:
+      - "&7&o无法正常使用电力模拟鸡生产"
+      - "&4魔法 机器"
+      - "&8➩&e ⚡ &83200J/s"
+  recipe:
+    1:
+      material_type: slimefun
+      material: GCE_EXCITATION_CHAMBER_10
+      amount: 1
+    2:
+      material_type: slimefun
+      material: GCE_EXCITATION_CHAMBER_10
+      amount: 1
+    3:
+      material_type: slimefun
+      material: GCE_EXCITATION_CHAMBER_10
+      amount: 1
+    4:
+      material_type: slimefun
+      material: GCE_EXCITATION_CHAMBER_10
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MAGIC_REDSTONE
+    6:
+      material_type: slimefun
+      material: GCE_EXCITATION_CHAMBER_10
+      amount: 1
+    7:
+      material_type: slimefun
+      material: GCE_EXCITATION_CHAMBER_10
+      amount: 1
+    8:
+      material_type: slimefun
+      material: GCE_EXCITATION_CHAMBER_10
+      amount: 1
+    9:
+      material_type: slimefun
+      material: GCE_EXCITATION_CHAMBER_10
+      amount: 1
+MAGIC_GCE_EXCITATION_CHAMBER:
+  #魔法鼓舞室
+  item_group: magic_gec
+  recipe_type: ANCIENT_ALTAR
+  item:
+    name: "&6魔法鼓舞室"
+    material: blast_furnace
+    lore:
+      - "&7&o结合无尽锭的力量"
+      - "&7&o使用电力模拟鸡生产"
+      - "&4魔法 机器"
+      - "&8➩&e ⚡ &86400J/s"
+  recipe:
+    1:
+      material_type: slimefun
+      material: MAGIC_GCE_EXCITATION_CHAMBER_PRE
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MAGIC_GCE_EXCITATION_CHAMBER_PRE
+      amount: 1
+    3:
+      material_type: slimefun
+      material: MAGIC_GCE_EXCITATION_CHAMBER_PRE
+      amount: 1
+    4:
+      material_type: slimefun
+      material: MAGIC_GCE_EXCITATION_CHAMBER_PRE
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MAGIC_BLISTERING_INGOT_3
+    6:
+      material_type: slimefun
+      material: MAGIC_GCE_EXCITATION_CHAMBER_PRE
+      amount: 1
+    7:
+      material_type: slimefun
+      material: MAGIC_GCE_EXCITATION_CHAMBER_PRE
+      amount: 1
+    8:
+      material_type: slimefun
+      material: MAGIC_GCE_EXCITATION_CHAMBER_PRE
+      amount: 1
+    9:
+      material_type: slimefun
+      material: MAGIC_GCE_EXCITATION_CHAMBER_PRE
+      amount: 1
+
+MAGIC_COPPER_DUST:
+  #魔法铜粉
+  item_group: magic_resource
+  recipe_type: ANCIENT_ALTAR
+  radiation: VERY_HIGH
+  item:
+    name: "&6魔法铜粉"
+    material: glowstone_dust
+    lore:
+      - "&8➩ &4需要防化服"
+  recipe:
+    1:
+      material_type: slimefun
+      material: MAGIC_BLISTERING_INGOT_3
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MAGIC_BLISTERING_INGOT_3
+      amount: 1
+    3:
+      material_type: slimefun
+      material: MAGIC_BLISTERING_INGOT_3
+      amount: 1
+    4:
+      material_type: slimefun
+      material: MAGIC_BLISTERING_INGOT_3
+      amount: 1
+    5:
+      material_type: slimefun
+      material: COPPER_DUST
+    6:
+      material_type: slimefun
+      material: MAGIC_BLISTERING_INGOT_3
+      amount: 1
+    7:
+      material_type: slimefun
+      material: MAGIC_BLISTERING_INGOT_3
+      amount: 1
+    8:
+      material_type: slimefun
+      material: MAGIC_BLISTERING_INGOT_3
+      amount: 1
+    9:
+      material_type: slimefun
+      material: MAGIC_BLISTERING_INGOT_3
+      amount: 1
