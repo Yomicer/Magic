@@ -1,0 +1,34 @@
+magic:
+  type: nested
+  item:
+    name: "&c🧡魔法🧡"
+    material: spyglass
+  tier: 0
+
+magic_gec:
+  type: sub
+  parent: "magic"
+  item:
+    name: "&b魔法基因机器"
+    material: blast_furnace
+
+magic_resource:
+  type: sub
+  parent: "magic"
+  item:
+    name: "&b魔法资源"
+    material: nether_star
+
+magic_auther:
+  type: sub
+  parent: "magic"
+  item:
+    name: "&b贡献"
+    material: dragon_head
+
+magic_mob_machines:
+  type: sub
+  parent: "magic"
+  item:
+    name: "&b机器"
+    material: crafting_table
