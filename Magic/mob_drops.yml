@@ -1,0 +1,11 @@
+MAGIC_RESOURCES_STAR:
+  item_group: magic_resource
+  entity: WITHER_SKELETON
+  chance: 1
+  item:
+    name: "&4&l暗物质碳"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTk4MTZiMDA0YzBhMTI0NmVlMjA5NTA5ZmZjOTNhMzAyNGJmMWRmMTliMDk2OTlhYzgzNzlkZTExODYwZjUzMyJ9fX0=
+    lore:
+      - "&7“暗物质”不是物质"
+      - "&7是物质的功能"
