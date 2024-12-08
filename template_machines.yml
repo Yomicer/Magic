@@ -1,0 +1,974 @@
+MAGIC_CD_MACHINE_1:
+  item_group: magic_cd_machines
+  item:
+    name: "&b魔法卡片复制机"
+    material: LOOM
+    lore:
+      - "&a"
+      - "&f使用&4魔法卡片&f生产各种物品"
+      - "&a" 
+      - "&6终极 机器"
+      - "&8⇨&e ⚡ &7速度: &b1x"
+      - "&8⇨&e ⚡ &72048 J/s"
+      - "&8⇨&e ⚡ &74096 J 可存储"
+      - "&a"
+      - "&c魔法机器"
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1: 
+      material_type: slimefun
+      material: MAGIC_REDSTONE
+    2:
+      material_type: slimefun
+      material: MAGIC_REDSTONE_BLOCK
+    3:
+      material_type: slimefun
+      material: ELECTRIC_MOTOR
+    4:
+      material_type: slimefun
+      material: BLISTERING_INGOT_3
+    5:
+      material: LOOM
+    6:
+      material_type: slimefun
+      material: BLISTERING_INGOT_3
+    7:
+      material_type: slimefun
+      material: ELECTRIC_MOTOR
+    8:
+      material_type: slimefun
+      material: HEATING_COIL
+    9:
+      material_type: slimefun
+      material: MAGIC_REDSTONE
+  capacity: 4096
+  consumption: 1024
+  templateSlot: 10
+  fasterIfMoreTemplates: true
+  moreOutputIfMoreTemplates: true
+  input: []
+  output: [4,5,6,7,8,13,14,15,16,17,22,23,24,25,26,31,32,33,34,35,40,41,42,43,44,49,50,51,52,53]
+  recipes:
+    MAGIC_CD_BLISTERING_INGOT_3:
+      '1':
+        seconds: 1800
+        output:
+          1: 
+            material_type: slimefun
+            material: BLISTERING_INGOT_3
+            amount: 64
+    MAGIC_CD_REINFORCED_ALLOY_INGOT:
+      '1':
+        seconds: 1800
+        output:
+          1: 
+            material_type: slimefun
+            material: REINFORCED_ALLOY_INGOT
+            amount: 64
+    MAGIC_CD_HARDENED_METAL_INGOT:
+      '1':
+        seconds: 1800
+        output:
+          1: 
+            material_type: slimefun
+            material: HARDENED_METAL_INGOT
+            amount: 64
+    MAGIC_CD_SYNTHETIC_SAPPHIRE:
+      '1':
+        seconds: 1800
+        output:
+          1: 
+            material_type: slimefun
+            material: SYNTHETIC_SAPPHIRE
+            amount: 64
+    MAGIC_CD_SYNTHETIC_DIAMOND:
+      '1':
+        seconds: 1800
+        output:
+          1: 
+            material_type: slimefun
+            material: SYNTHETIC_DIAMOND
+            amount: 64
+    MAGIC_CD_SYNTHETIC_EMERALD:
+      '1':
+        seconds: 1800
+        output:
+          1: 
+            material_type: slimefun
+            material: SYNTHETIC_EMERALD
+            amount: 64
+    MAGIC_CD_REDSTONE_ALLOY:
+      '1':
+        seconds: 1800
+        output:
+          1: 
+            material_type: slimefun
+            material: REDSTONE_ALLOY
+            amount: 64
+    MAGIC_CD_BASIC_CIRCUIT_BOARD:
+      '1':
+        seconds: 1800
+        output:
+          1: 
+            material_type: slimefun
+            material: BASIC_CIRCUIT_BOARD
+            amount: 64
+    MAGIC_CD_SOLAR_PANEL:
+      '1':
+        seconds: 1800
+        output:
+          1: 
+            material_type: slimefun
+            material: SOLAR_PANEL
+            amount: 64
+    MAGIC_CD_ELECTRO_MAGNET:
+      '1':
+        seconds: 1800
+        output:
+          1: 
+            material_type: slimefun
+            material: ELECTRO_MAGNET
+            amount: 64
+    MAGIC_CD_ELECTRIC_MOTOR:
+      '1':
+        seconds: 1800
+        output:
+          1: 
+            material_type: slimefun
+            material: ELECTRIC_MOTOR
+            amount: 64
+    MAGIC_CD_HEATING_COIL:
+      '1':
+        seconds: 1800
+        output:
+          1: 
+            material_type: slimefun
+            material: HEATING_COIL
+            amount: 64
+    MAGIC_CD_ANDROID_MEMORY_CORE:
+      '1':
+        seconds: 1800
+        output:
+          1: 
+            material_type: slimefun
+            material: ANDROID_MEMORY_CORE
+            amount: 64
+    MAGIC_CD_SOLAR_GENERATOR_4:
+      '1':
+        seconds: 1800
+        output:
+          1: 
+            material_type: slimefun
+            material: SOLAR_GENERATOR_4
+            amount: 64
+    MAGIC_CD_ADVANCED_CIRCUIT_BOARD:
+      '1':
+        seconds: 1800
+        output:
+          1: 
+            material_type: slimefun
+            material: ADVANCED_CIRCUIT_BOARD
+            amount: 64
+    
+    
+
+MAGIC_SNOW_CD_1:
+  item_group: magic_snow
+  item:
+    name: "&b冬日&6厨房"
+    material: ORANGE_GLAZED_TERRACOTTA
+    lore:
+      - "&a"
+      - "&b在这里可以生产食品"
+      - "&a" 
+      - "&4终极 机器"
+      - "&8⇨&e ⚡ &7速度: &b1x"
+      - "&8⇨&e ⚡ &7100 J/s"
+      - "&8⇨&e ⚡ &71000 J 可存储"
+      - "&a"
+      - "&b冬日限定"
+  recipe_type: ONLY_SNOW
+  capacity: 1000
+  consumption: 100
+  templateSlot: 10
+  fasterIfMoreTemplates: true
+  moreOutputIfMoreTemplates: true
+  input: []
+  output: [4,5,6,7,8,13,14,15,16,17,22,23,24,25,26,31,32,33,34,35,40,41,42,43,44,49,50,51,52,53]
+  recipes:
+    MAGIC_SNOW_CD:
+      '1':
+        seconds: 10
+        chooseOne: true
+        output:
+          1: 
+            material_type: slimefun
+            material: MAGIC_FOODS_RANDOMFOOD
+            amount: 1
+            chance: 8
+          2: 
+            material_type: slimefun
+            material: MAGIC_FOODS_JIAOZI
+            amount: 1
+            chance: 8
+          3: 
+            material_type: slimefun
+            material: MAGIC_FOODS_APPLE
+            amount: 1
+            chance: 8
+          4: 
+            material_type: slimefun
+            material: MAGIC_FOODS_A_1
+            amount: 1
+            chance: 8
+          5: 
+            material_type: slimefun
+            material: MAGIC_FOODS_A_2
+            amount: 1
+            chance: 8
+          6: 
+            material_type: slimefun
+            material: MAGIC_FOODS_A_3
+            amount: 1
+            chance: 8
+          7: 
+            material_type: slimefun
+            material: MAGIC_FOODS_A_4
+            amount: 1
+            chance: 8
+          8: 
+            material_type: slimefun
+            material: MAGIC_FOODS_A_5
+            amount: 1
+            chance: 8
+          9: 
+            material_type: slimefun
+            material: MAGIC_FOODS_A_6
+            amount: 1
+            chance: 8
+          10: 
+            material_type: slimefun
+            material: MAGIC_FOODS_A_7
+            amount: 1
+            chance: 8
+          11: 
+            material_type: slimefun
+            material: MAGIC_FOODS_A_8
+            amount: 1
+            chance: 8
+          12: 
+            material_type: slimefun
+            material: MAGIC_FOODS_A_9
+            amount: 1
+            chance: 8
+          13: 
+            material_type: slimefun
+            material: MAGIC_FOODS_A_10
+            amount: 1
+            chance: 8
+
+MAGIC_MOB_SIMULATION_CHAMBER:
+  item_group: magic_data_card
+  item:
+    name: "&b无尽&7生物模拟室"
+    material: GILDED_BLACKSTONE
+    lore:
+      - "&7使用生物芯片激活"
+      - "&a" 
+      - "&8⇨&e ⚡ &7800 J/s"
+      - "&8⇨&e ⚡ &730000 J 可存储"
+      - "&a"
+      - "&c魔法机器"
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1: 
+      material_type: slimefun
+      material: INFINITE_INGOT
+    2:
+      material_type: slimefun
+      material: MAGIC_VOID_DUST
+    3:
+      material_type: slimefun
+      material: INFINITE_INGOT
+    4:
+      material_type: slimefun
+      material: MOB_SIMULATION_CHAMBER
+    5:
+      material_type: slimefun
+      material: MAGIC_MOB_SIMULATION_CHAMBER_UP
+    6:
+      material_type: slimefun
+      material: MOB_SIMULATION_CHAMBER
+    7:
+      material_type: slimefun
+      material: INFINITE_INGOT
+    8:
+      material_type: slimefun
+      material: MAGIC_VOID_DUST
+    9:
+      material_type: slimefun
+      material: INFINITE_INGOT
+  capacity: 30000
+  consumption: 400
+  templateSlot: 37
+  fasterIfMoreTemplates: true
+  moreOutputIfMoreTemplates: true
+  input: []
+  output: [13,14,15,16,22,23,24,25,31,32,33,34,40,41,42,43]
+  recipes:
+    ZOMBIE_DATA_CARD_MAGIC:
+      '1':
+        seconds: 3
+        chooseOne: true
+        output:
+          1: 
+            material: rotten_flesh
+            amount: 1
+    SLIME_DATA_CARD_MAGIC:
+      '1':
+        seconds: 3
+        chooseOne: true
+        output:
+          1: 
+            material: slime_ball
+            amount: 1
+    MAGMA_CUBE_DATA_CARD_MAGIC:
+      '1':
+        seconds: 3
+        chooseOne: true
+        output:
+          1: 
+            material: magma_cream
+            amount: 1
+    COW_DATA_CARD_MAGIC:
+      '1':
+        seconds: 3
+        chooseOne: true
+        output:
+          1: 
+            material: beef
+            amount: 1
+          2: 
+            material: leather
+            amount: 1
+    SHEEP_DATA_CARD_MAGIC:
+      '1':
+        seconds: 3
+        chooseOne: true
+        output:
+          1: 
+            material: mutton
+            amount: 1
+          2: 
+            material: white_wool
+            amount: 1
+          3: 
+            material: pink_wool
+            amount: 1
+    SPIDER_DATA_CARD_MAGIC:
+      '1':
+        seconds: 3
+        chooseOne: true
+        output:
+          1: 
+            material: string
+            amount: 1
+            chance: 100
+          2: 
+            material: spider_eye
+            amount: 1
+            chance: 50
+    SKELETON_DATA_CARD_MAGIC:
+      '1':
+        seconds: 3
+        chooseOne: true
+        output:
+          1: 
+            material: bone
+            amount: 1
+          2: 
+            material: arrow
+            amount: 1
+    WITHER_SKELETON_DATA_CARD_MAGIC:
+      '1':
+        seconds: 3
+        chooseOne: true
+        output:
+          1: 
+            material: coal
+            amount: 2
+            chance: 100
+          2: 
+            material: bone
+            amount: 1
+            chance: 33
+          3: 
+            material: WITHER_SKELETON_SKULL
+            amount: 1
+            chance: 6
+    ENDERMEN_DATA_CARD_MAGIC:
+      '1':
+        seconds: 3
+        chooseOne: true
+        output:
+          1: 
+            material: ender_pearl
+            amount: 1
+    CREEPER_DATA_CARD_MAGIC:
+      '1':
+        seconds: 3
+        chooseOne: true
+        output:
+          1: 
+            material: GUNPOWDER
+            amount: 1
+    GUARDIAN_DATA_CARD_MAGIC:
+      '1':
+        seconds: 3
+        chooseOne: true
+        output:
+          1: 
+            material: prismarine_shard
+            amount: 1
+            chance: 100
+          2: 
+            material: prismarine_crystals
+            amount: 1
+            chance: 50
+          3: 
+            material: cod
+            amount: 1
+            chance: 33
+          4: 
+            material: sponge
+            amount: 1
+            chance: 2
+    CHICKEN_DATA_CARD_MAGIC:
+      '1':
+        seconds: 3
+        chooseOne: true
+        output:
+          1: 
+            material: chicken
+            amount: 1
+            chance: 100
+          2: 
+            material: feather
+            amount: 1
+            chance: 50
+    IRON_GOLEM_DATA_CARD_MAGIC:
+      '1':
+        seconds: 3
+        chooseOne: true
+        output:
+          1: 
+            material_type: slimefun
+            material: BASIC_CIRCUIT_BOARD
+            amount: 1
+            chance: 33
+          2: 
+            material_type: slimefun
+            material: ADVANCED_CIRCUIT_BOARD
+            amount: 1
+            chance: 10
+          3: 
+            material: iron_ingot
+            amount: 2
+            chance: 100
+          4: 
+            material: poppy
+            amount: 1
+            chance: 33
+    BLAZE_DATA_CARD_MAGIC:
+      '1':
+        seconds: 3
+        chooseOne: true
+        output:
+          1: 
+            material: blaze_rod
+            amount: 1
+    WITHER_DATA_CARD_MAGIC:
+      '1':
+        seconds: 3
+        chooseOne: true
+        output:
+          1: 
+            material: NETHER_STAR
+            amount: 1
+            chance: 100
+          2: 
+            material_type: slimefun
+            material: CARBON_CHUNK
+            amount: 1
+            chance: 50
+    BEE_DATA_CARD_MAGIC:
+      '1':
+        seconds: 3
+        chooseOne: true
+        output:
+          1: 
+            material: honeycomb
+            amount: 1
+            chance: 100
+          2: 
+            material: beehive
+            amount: 1
+            chance: 5
+    VILLAGER_DATA_CARD_MAGIC:
+      '1':
+        seconds: 3
+        chooseOne: true
+        output:
+          1: 
+            material: EMERALD
+            amount: 1
+    WITCH_DATA_CARD_MAGIC:
+      '1':
+        seconds: 3
+        chooseOne: true
+        output:
+          1: 
+            material: redstone
+            amount: 1
+          2: 
+            material: sugar 
+            amount: 1
+          3: 
+            material: glass_bottle
+            amount: 1
+          4: 
+            material: glowstone_dust
+            amount: 1
+    VEX_DATA_CARD_MAGIC:
+      '1':
+        seconds: 3
+        chooseOne: true
+        output:
+          1: 
+            material_type: slimefun
+            material: VEX_GEM
+            amount: 1
+    PHANTOM_DATA_CARD_MAGIC:
+      '1':
+        seconds: 3
+        chooseOne: true
+        output:
+          1: 
+            material: phantom_membrane
+            amount: 1
+
+MAGIC_CHICKEN_HOUSE1:
+  item_group: magic_dlc_machines
+  item:
+    name: "&e鸡窝"
+    material: BEEHIVE
+    lore:
+      - "&7&o鸡孵蛋的地方"
+      - "&a中型 机器"
+      - "&8⇨&e ⚡ &710 J/s"
+      - "&8⇨&e ⚡ &71000 J 可存储"
+      - "&a"
+      - "&c魔法机器"
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1: 
+      material: pink_wool
+      amount: 1 
+    2: 
+      material_type: slimefun
+      material: SMALL_CAPACITOR
+      amount: 1 
+    3: 
+      material: pink_wool
+      amount: 1 
+    4: 
+      material_type: slimefun
+      material: HEATING_COIL
+      amount: 1 
+    5: 
+      material_type: slimefun
+      material: GCE_PRIVATE_COOP
+      amount: 1 
+    6: 
+      material_type: slimefun
+      material: HEATING_COIL
+      amount: 1 
+    7: 
+      material: pink_wool
+      amount: 1 
+    8: 
+      material_type: slimefun
+      material: ELECTRIC_MOTOR
+      amount: 1 
+    9: 
+      material: pink_wool
+      amount: 1 
+  capacity: 1000
+  consumption: 10
+  templateSlot: 10
+  fasterIfMoreTemplates: false
+  moreOutputIfMoreTemplates: false
+  input: [19]
+  output: [4,5,6,7,8,13,14,15,16,17,22,23,24,25,26,31,32,33,34,35,40,41,42,43,44,49,50,51,52,53]
+  recipes:
+    MAGIC_ANIMALS_CHICKEN:
+      '1':
+        seconds: 30
+        input: 
+          1: 
+            material: WHEAT_SEEDS
+            amount: 64
+        output:
+          1: 
+            material: EGG
+            amount: 1
+
+MAGIC_CHICKEN_HOUSE2:
+  item_group: magic_dlc_machines
+  item:
+    name: "&e增强版鸡窝"
+    material: BEEHIVE
+    lore:
+      - "&7&o鸡孵蛋的地方"
+      - "&7&o速度更快"
+      - "&6高级 机器"
+      - "&8⇨&e ⚡ &715 J/s"
+      - "&8⇨&e ⚡ &71000 J 可存储"
+      - "&a"
+      - "&c魔法机器"
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1: 
+      material_type: slimefun
+      material: LEAD_INGOT
+      amount: 1 
+    2: 
+      material_type: slimefun
+      material: MAGIC_BLISTERING_INGOT_3
+      amount: 1 
+    3: 
+      material_type: slimefun
+      material: LEAD_INGOT
+      amount: 1 
+    4: 
+      material_type: slimefun
+      material: MAGIC_BLISTERING_INGOT_3
+      amount: 1 
+    5: 
+      material_type: slimefun
+      material: MAGIC_CHICKEN_HOUSE1
+      amount: 1 
+    6: 
+      material_type: slimefun
+      material: MAGIC_BLISTERING_INGOT_3
+      amount: 1 
+    7: 
+      material_type: slimefun
+      material: LEAD_INGOT
+      amount: 1 
+    8: 
+      material_type: slimefun
+      material: MAGIC_BLISTERING_INGOT_3
+      amount: 1 
+    9: 
+      material_type: slimefun
+      material: LEAD_INGOT
+      amount: 1 
+  capacity: 1000
+  consumption: 15
+  templateSlot: 10
+  fasterIfMoreTemplates: false
+  moreOutputIfMoreTemplates: false
+  input: [19]
+  output: [4,5,6,7,8,13,14,15,16,17,22,23,24,25,26,31,32,33,34,35,40,41,42,43,44,49,50,51,52,53]
+  recipes:
+    MAGIC_ANIMALS_CHICKEN:
+      '1':
+        seconds: 25
+        input: 
+          1: 
+            material: WHEAT_SEEDS
+            amount: 64
+        output:
+          1: 
+            material: EGG
+            amount: 1
+
+MAGIC_CHICKEN_HOUSE3:
+  item_group: magic_dlc_machines
+  item:
+    name: "&e终极鸡窝"
+    material: BEEHIVE
+    lore:
+      - "&7&o鸡孵蛋的地方"
+      - "&7&o速度最快"
+      - "&4终极 机器"
+      - "&8⇨&e ⚡ &7100 J/s"
+      - "&8⇨&e ⚡ &71000 J 可存储"
+      - "&a"
+      - "&c魔法机器"
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1: 
+      material_type: slimefun
+      material: MAGIC_REDSTONE
+      amount: 1 
+    2: 
+      material_type: slimefun
+      material: NETHERSTAR_REACTOR
+      amount: 1 
+    3: 
+      material_type: slimefun
+      material: MAGIC_REDSTONE
+      amount: 1 
+    4: 
+      material_type: slimefun
+      material: MAGIC_LUMP_3
+      amount: 1 
+    5: 
+      material_type: slimefun
+      material: MAGIC_CHICKEN_HOUSE2
+      amount: 1 
+    6: 
+      material_type: slimefun
+      material: MAGIC_LUMP_3
+      amount: 1 
+    7: 
+      material_type: slimefun
+      material: MAGIC_REDSTONE
+      amount: 1 
+    8: 
+      material_type: slimefun
+      material: BOOSTED_URANIUM
+      amount: 1 
+    9: 
+      material_type: slimefun
+      material: MAGIC_REDSTONE
+      amount: 1 
+  capacity: 1000
+  consumption: 100
+  templateSlot: 10
+  fasterIfMoreTemplates: false
+  moreOutputIfMoreTemplates: false
+  input: [19]
+  output: [4,5,6,7,8,13,14,15,16,17,22,23,24,25,26,31,32,33,34,35,40,41,42,43,44,49,50,51,52,53]
+  recipes:
+    MAGIC_ANIMALS_CHICKEN:
+      '1':
+        seconds: 5
+        input: 
+          1: 
+            material: WHEAT_SEEDS
+            amount: 64
+        output:
+          1: 
+            material: EGG
+            amount: 1
+
+MAGIC_BEE_HOUSE1:
+  item_group: magic_animal_house
+  item:
+    name: "&e蜜蜂生育室"
+    material: HONEY_BLOCK
+    lore:
+      - "&a"
+      - "&7蜜蜂生育的地方"
+      - "&7缓慢地繁衍后代"
+      - "&7每次繁殖后,蜜蜂都会死去"
+      - "&7一次繁殖2只"
+      - "&4终极 机器"
+      - "&8⇨&e ⚡ &7100 J/s"
+      - "&8⇨&e ⚡ &71000 J 可存储"
+      - "&a"
+      - "&c魔法机器"
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1: 
+      material_type: slimefun
+      material: FN_MACHINERY_COMPONENT_PART
+      amount: 1 
+    2: 
+      material_type: slimefun
+      material: FN_MACHINERY_HIGHTECH_MACHINE_BLOCK
+      amount: 1 
+    3: 
+      material_type: slimefun
+      material: FN_MACHINERY_COMPONENT_PART
+      amount: 1 
+    4: 
+      material_type: slimefun
+      material: THERMOMETER
+      amount: 1 
+    5: 
+      material_type: slimefun
+      material: CRY_EXALTED_FERTILITY_TOTEM
+      amount: 1 
+    6: 
+      material_type: slimefun
+      material: MAGIC_ANIMALS_WARM_CORE
+      amount: 1 
+    7: 
+      material_type: slimefun
+      material: MAGIC_COSMIC_DUST
+      amount: 1 
+    8: 
+      material_type: slimefun
+      material: FN_JUKEBOX_III
+      amount: 1 
+    9: 
+      material_type: slimefun
+      material: MAGIC_MAGIC_INGOT
+      amount: 1 
+  capacity: 1000
+  consumption: 100
+  templateSlot: 10
+  fasterIfMoreTemplates: false
+  moreOutputIfMoreTemplates: false
+  input: [19]
+  output: [4,5,6,7,8,13,14,15,16,17,22,23,24,25,26,31,32,33,34,35,40,41,42,43,44,49,50,51,52,53]
+  recipes:
+    MAGIC_BEE_KING:
+      '1':
+        seconds: 1800
+        input: 
+          1: 
+            material_type: slimefun
+            material: BEE
+            amount: 1
+        output:
+          1: 
+            material: BEE_SPAWN_EGG
+            amount: 2
+
+MAGIC_STACKING_INFINITE:
+  item_group: magic_stacking_machines
+  item:
+    name: "&e&l堆叠机&7&l-&b&l无尽"
+    material: PURPLE_GLAZED_TERRACOTTA
+    lore:
+      - "&a"
+      - "&4终极 机器" 
+      - "&7让多个机器在同一个方块内工作"
+      - "&8⇨&e ⚡ &73200 J/s"
+      - "&8⇨&e ⚡ &76400 J 可存储"
+      - "&a"
+      - "&c魔法机器"
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1: 
+      material_type: slimefun
+      material: MAGIC_COSMIC_DUST
+    2:
+      material_type: slimefun
+      material: INFINITE_MACHINE_CIRCUIT
+    3:
+      material_type: slimefun
+      material: MAGIC_REDSTONE_BLOCK
+    4:
+      material_type: slimefun
+      material: MAGIC_BLISTERING_INGOT_3
+    5:
+      material_type: slimefun
+      material: MAGIC_STACKING_CORE
+    6:
+      material_type: slimefun
+      material: MAGIC_BLISTERING_INGOT_3
+    7:
+      material_type: slimefun
+      material: MAGIC_REDSTONE_BLOCK
+    8:
+      material_type: slimefun
+      material: MAGIC_BLISTERING_INGOT_3
+    9:
+      material_type: slimefun
+      material: MAGIC_COSMIC_DUST
+  capacity: 5400
+  consumption: 3200
+  templateSlot: 10
+  fasterIfMoreTemplates: true
+  moreOutputIfMoreTemplates: true
+  input: [19]
+  output: [4,5,6,7,8,13,14,15,16,17,22,23,24,25,26,31,32,33,34,35,40,41,42,43,44,49,50,51,52,53]
+  recipes:
+    BASIC_COBBLE_GEN:
+      '1':
+        seconds: 1
+        output:
+          1: 
+            material: COBBLESTONE
+            amount: 1
+    ADVANCED_COBBLE_GEN:
+      '1':
+        seconds: 1
+        output:
+          1: 
+            material: COBBLESTONE
+            amount: 4
+
+MAGIC_NEWPLAYER_GIFT_MACHINE_1:
+  item_group: magic_newplayer_machines
+  item:
+    name: "&b腐竹的小金库"
+    material: PINK_SHULKER_BOX
+    lore:
+      - "&a"
+      - "&b每分钟都可能获得一份腐竹的馈赠"
+      - "&a" 
+      - "&a基础 机器"
+      - "&8⇨&e ⚡ &7速度: &b1x"
+      - "&8⇨&e ⚡ &710 J/s"
+      - "&8⇨&e ⚡ &7100 J 可存储"
+      - "&a"
+      - "&b萌新专属机器"
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    2: 
+      material_type: slimefun
+      material: MAGIC_NEW_CONVERT
+      amount: 1
+    5: 
+      material_type: mc
+      material: DISPENSER
+      amount: 1
+  capacity: 100
+  consumption: 10
+  templateSlot: 10
+  fasterIfMoreTemplates: false
+  moreOutputIfMoreTemplates: false
+  input: []
+  output: [4,5,6,7,8,13,14,15,16,17,22,23,24,25,26,31,32,33,34,35,40,41,42,43,44,49,50,51,52,53]
+  recipes:
+    MAGIC_NEWPLAYER_COIN:
+      '1':
+        seconds: 60
+        output:
+          1: 
+            material_type: saveditem
+            material: mx1
+            amount: 1
+            chance: 5
+          2: 
+            material_type: saveditem
+            material: mx2
+            amount: 1
+            chance: 5
+          3: 
+            material_type: saveditem
+            material: mx3
+            amount: 1
+            chance: 5
+          4: 
+            material_type: saveditem
+            material: mx4
+            amount: 1
+            chance: 5
+          5: 
+            material_type: saveditem
+            material: mx5
+            amount: 1
+            chance: 5
+          6: 
+            material_type: saveditem
+            material: mx6
+            amount: 1
+            chance: 1

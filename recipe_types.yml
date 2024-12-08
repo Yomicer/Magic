@@ -1,0 +1,120 @@
+MAGIC_GEC_MOB_TYPE:
+    name: "&4魔法鼓舞室组装台"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDJjOGU3NmZjZGRlOWExNWFlMzkyOWI4NGJmNmZmYTRjMTc3N2IxZTI2YjdkNmQ4OTM4ZjBlZjA0ZTg0ODc0YyJ9fX0=
+    lore: 
+      - "&a"
+      - "&7你可以在这里"
+      - "&7指定魔法鼓舞室生产的产物!"
+      - "&4这是一个不可逆操作!"
+      - "&a"
+      - "&a多方块机器" 
+
+MAGIC_BEEHIVE_MOB:
+    name: "&c蜜蜂放置台"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzdjYmYyNThhMGUyZGUzNGM4MThhYThhODk4NjMxM2Y3MjkyOWU1YWJhOTg3OTcxNWY0MTM0YmRjNmM0MDJkNCJ9fX0=
+    lore: 
+      - "&a"
+      - "&7你可以在这里"
+      - "&7将蜜蜂放入到魔法蜂箱中!"
+      - "&4这是一个不可逆操作!"
+      - "&a"
+      - "&a多方块机器" 
+
+MAGIC_ENERGY_PRESS: 
+    name: "&c魔法&8能量压缩仓"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDYwMGYwZDJiMmFiNTI0YjIxOWUwZmE4MDhjODBiMjZlNzIzNjc4MDY4MTg2N2EwNjE3ZjczY2UzNjcxY2QyZiJ9fX0=
+    lore: 
+      - "&a"
+      - "&7对材料进行压缩"
+      - "&a" 
+
+MAGIC_GENSHIN_IMPACT_MACHINES:
+    name: "&b盲盒拆解机"
+    lore:
+    - "&a"
+    - "&f初级 机器"
+    - "&f用于打开各种盲盒"
+    - "&a" 
+    - "&a盲盒机器"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2ZiYjQ1ZjRlYTFlNTRmODhlN2UwMDg1OWU4ZWM5YTU5ODI4MjNkODg4YjZlMWY2YWUxZDY5YTQxNGZmZjcwZiJ9fX0=
+
+MAGIC_WAR_MACHINES_NUMERATOR:
+    name: "&b分子互作仪"
+    lore:
+    - "&a"
+    - "&6高级 机器"
+    - "&f将物质转化为对应自然元素"
+    - "&a魔法机器"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDQ5YmM3MGM4ZmQyYzJlYzI3NzA1Y2Y4NTBlMmI0ODkyMzllYTc5NjI0NWQ0NzI3ZjBkNzc0YTFmZWI2Y2ZhZSJ9fX0=
+
+MAGIC_AUTHOR_MACHINE:
+    name: "&4&l起源工厂"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjU4NTBjYjhkNWYzMDg5Mzk5YWVhYzgxOTFmZWY5NmFkYmRlMWRiNWVjYjgyYmNmZTc0YzEzMjg2MmRkZTczZiJ9fX0=
+    lore:
+      - "&a"
+      - "&4终极 机器"
+      - "&7用于制造一些"
+      - "&7起源物品"
+      - "&a"
+      - "&c魔法机器"
+
+ONLY_SNOW: 
+    name: "&B&l冬日限定"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWRmNTAwZjBhM2MyYTgyYzkwZWRiMzdhZTJlZTI0NGQ4MDViMzI4Y2UzZmVmMjA1YmM5MGFlNmFjMmQ3YWQyYiJ9fX0=
+    lore:
+      - "&a"
+      - "&b冬日 限定"
+
+MAGIC_DATA_CARD_INSERT: 
+  name: "&8魔法生物芯片注入器"
+  material: lodestone
+  lore:
+      - "&a"
+      - "&7将魔法注入到生物芯片"
+      - "&a"
+
+MAGIC_CD_SINGULARITY: 
+  name: "&b卡片奇点压缩机"
+  material: MAGENTA_GLAZED_TERRACOTTA
+  lore:
+    - "&a" 
+    - "&7将资源压缩成奇点"
+    - "&a"
+
+MAGIC_NONE: 
+  name: "&b无法合成的物品"
+  material: BEACON
+  lore:
+    - "&a" 
+    - "&6&l痴情的人啊!"
+    - "&6&l请再等一世吧~"
+    - "&a"
+
+MAGIC_INFINITY_ARMOR_MACHINE: 
+  name: "&b&l无尽装备工厂"
+  material_type: skull_base64
+  material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTlkMGY1MWYzOWUwOGU1MWNjODNjYmVjMDFlM2NlMTM2MmM3MGMwMmVkYzM1MTkwMmFmOGU3YTVmNmUyMDFiYyJ9fX0=
+  lore:
+    - "&a" 
+    - "&7&l无尽的起源"
+    - "&7&l追寻更纯粹的真理"
+    - "&a"
+
+MAGIC_STORAGE_UPGRADE_TABLE:
+  name: "&b&l魔法抽屉升级台"
+  material_type: skull_base64
+  material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGI2MzVlOGNkMDQwNWJjYTVjM2ZkMzRiYWQ5M2EwMGNhNWEyY2EyYWQxMjE0Y2RhMTIwNDViYThhYmI4MzA1YiJ9fX0=
+  lore: 
+      - "&a"
+      - "&e&l用于升级魔法抽屉"
+      - "&d&l一次性魔法"
+      - "&c&l放置后拆除将失去效果"
+      - "&a"
+      - "&a多方块机器" 

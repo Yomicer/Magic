@@ -1,0 +1,12 @@
+id: Magic
+name: Magic
+depends: []
+pluginDepends: 
+- InfinityExpansion
+- GeneticChickengineering
+- GuizhanLibPlugin
+version: Release-0.3.5
+description: 目前测试阶段
+authors: 
+- magicsolo
+repo: Yomicer/Magic

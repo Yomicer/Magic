@@ -1,0 +1,37 @@
+MAGIC_RESOURCES_STAR:
+  item_group: magic_resource
+  entity: WITHER_SKELETON
+  chance: 1
+  item:
+    name: "&4&l暗物质碳"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTk4MTZiMDA0YzBhMTI0NmVlMjA5NTA5ZmZjOTNhMzAyNGJmMWRmMTliMDk2OTlhYzgzNzlkZTExODYwZjUzMyJ9fX0=
+    lore:
+      - "&7“暗物质”不是物质"
+      - "&7是物质的功能"
+
+MAGIC_CHICKEN_HEART:
+  item_group: magic_resource
+  entity: CHICKEN
+  chance: 5
+  item:
+    name: "&a鸡的精魄"
+    material: FERMENTED_SPIDER_EYE
+    lore:
+      - "&7用于制作魔法鸡的核心材料"
+      - "&7只有极少数的鸡拥有"
+
+MAGIC_BEE_1:
+  item_group: magic_animals
+  entity: BEE
+  chance: 20
+  item:
+    name: "&a魔法蜜蜂"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODg2YTUwOWZmM2NkNDcxZjFiNDI4YTE5NGI2NzExNDcwYTU0NzczZTVkZTZlZTA3ZjdlNjAxY2M1ZTc1YTIwMCJ9fX0=
+    lore:
+      - "&a"
+      - "&7死而复生"
+      - "&7只有魔法蜜蜂才有这样的能力"
+      - "&a"
+      - "&6魔法动物"
