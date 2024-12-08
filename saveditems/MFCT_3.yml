@@ -23,7 +23,7 @@ item:
     - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
     - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"机器"}],"text":""}'
     PublicBukkitValues:
-      slimefun:slimefun_item: NTW_EXPANSION_CARGO_STORAGE_UNIT_3_MODEL
+      slimefun:slimefun_item: NTW_EXPANSION_CARGO_STORAGE_UNIT_3
     skull-owner:
       ==: PlayerProfile
       uniqueId: 917f3f69-8a3c-31ea-b161-b8cee853c093
