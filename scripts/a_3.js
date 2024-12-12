@@ -4,8 +4,29 @@ function onEat(event, player, itemStack) {
     var player = event.getPlayer();
 
 
+
+    var PotionEffect = Java.type('org.bukkit.potion.PotionEffect');
+    var PotionEffectType = Java.type('org.bukkit.potion.PotionEffectType');
+
+    var A = Math.floor(Math.random() * 50); //随机效果等级
+
+    var B = Math.floor(Math.random() * 100); //随机效果时间  0-100
+
+    var C = A+1
+
+    let INVISIBILITY = new PotionEffect(PotionEffectType.INVISIBILITY, 20 * B, A, true, true, true); // 持续60秒，等级2
+
+     // 添加药水效果到玩家
+    player.addPotionEffect(INVISIBILITY);
+
+    // 发送消息给玩家
+    player.sendMessage("§b你获得了等级为§e " + C + " §b的 §e隐身 §b效果，此效果将持续 §e" + B + "§b 秒。");
+
+
+
+
     // 运行op指令
-    runOpCommand(player, "effect give " + player.getName() + " invisibility 61 50");
+    // runOpCommand(player, "effect give " + player.getName() + " invisibility 61 50");
 
 
 

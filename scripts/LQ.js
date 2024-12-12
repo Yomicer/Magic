@@ -11,7 +11,7 @@ function onUse(event) {
     const itemMeta = item.getItemMeta();
     const lore = itemMeta.getLore().slice(0, -2);
     lore.push("§a§l冷§b§l却§c§l剩§d§l余§e§l时§f§l间§2§l :§3§l" +remainingTime+"§4§l秒");
-    lore.push("§e§l全§a§l服§c§l累§d§l积§f§l完§2§l成§2§l "+ usageCount +" §3§l次 §4§l唱 §5§l跳 §6§lRAP §7§l篮§8§l球")
+    lore.push("§f§l今§b§l日§e§l全§a§l服§c§l累§d§l积§f§l完§2§l成§2§l "+ usageCount +" §3§l次 §4§l唱 §5§l跳 §6§lRAP §7§l篮§8§l球")
     itemMeta.setDisplayName("§a§lM§b§lU§c§lS§d§lI§e§lC§f§l~ §2§l[§3§l已§4§l完§5§l成§6§l：§7§l "+ usageCount +" §8§l次]"); // 设置物品显示名称
     itemMeta.setLore(lore);
     item.setItemMeta(itemMeta);
