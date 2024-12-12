@@ -49,7 +49,7 @@ MAGIC_GEC_MOB:
           amount: 1
         5:
           material_type: slimefun
-          material: MAGIC_REDSTONE_BLOCK
+          material: MAGIC_COSMIC_DUST
           amount: 1
         6:
           material_type: slimefun
@@ -90,7 +90,7 @@ MAGIC_GEC_MOB:
           amount: 1
         5:
           material_type: slimefun
-          material: MAGIC_REDSTONE_BLOCK
+          material: MAGIC_COSMIC_DUST
           amount: 1
         6:
           material_type: slimefun
@@ -131,7 +131,7 @@ MAGIC_GEC_MOB:
           amount: 1
         5:
           material_type: slimefun
-          material: MAGIC_REDSTONE_BLOCK
+          material: MAGIC_COSMIC_DUST
           amount: 1
         6:
           material_type: slimefun
@@ -172,7 +172,7 @@ MAGIC_GEC_MOB:
           amount: 1
         5:
           material_type: slimefun
-          material: MAGIC_REDSTONE_BLOCK
+          material: MAGIC_COSMIC_DUST
           amount: 1
         6:
           material_type: slimefun
@@ -213,7 +213,7 @@ MAGIC_GEC_MOB:
           amount: 1
         5:
           material_type: slimefun
-          material: MAGIC_REDSTONE_BLOCK
+          material: MAGIC_COSMIC_DUST
           amount: 1
         6:
           material_type: slimefun
@@ -254,7 +254,7 @@ MAGIC_GEC_MOB:
           amount: 1
         5:
           material_type: slimefun
-          material: MAGIC_REDSTONE_BLOCK
+          material: MAGIC_COSMIC_DUST
           amount: 1
         6:
           material_type: slimefun
@@ -295,7 +295,7 @@ MAGIC_GEC_MOB:
           amount: 1
         5:
           material_type: slimefun
-          material: MAGIC_REDSTONE_BLOCK
+          material: MAGIC_COSMIC_DUST
           amount: 1
         6:
           material_type: slimefun
@@ -336,7 +336,7 @@ MAGIC_GEC_MOB:
           amount: 1
         5:
           material_type: slimefun
-          material: MAGIC_REDSTONE_BLOCK
+          material: MAGIC_COSMIC_DUST
           amount: 1
         6:
           material_type: slimefun
@@ -377,7 +377,7 @@ MAGIC_GEC_MOB:
           amount: 1
         5:
           material_type: slimefun
-          material: MAGIC_REDSTONE_BLOCK
+          material: MAGIC_COSMIC_DUST
           amount: 1
         6:
           material_type: slimefun
@@ -418,7 +418,7 @@ MAGIC_GEC_MOB:
           amount: 1
         5:
           material_type: slimefun
-          material: MAGIC_REDSTONE_BLOCK
+          material: MAGIC_COSMIC_DUST
           amount: 1
         6:
           material_type: slimefun
@@ -459,7 +459,7 @@ MAGIC_GEC_MOB:
           amount: 1
         5:
           material_type: slimefun
-          material: MAGIC_REDSTONE_BLOCK
+          material: MAGIC_COSMIC_DUST
           amount: 1
         6:
           material_type: slimefun
@@ -500,7 +500,7 @@ MAGIC_GEC_MOB:
           amount: 1
         5:
           material_type: slimefun
-          material: MAGIC_REDSTONE_BLOCK
+          material: MAGIC_COSMIC_DUST
           amount: 1
         6:
           material_type: slimefun
@@ -541,7 +541,7 @@ MAGIC_GEC_MOB:
           amount: 1
         5:
           material_type: slimefun
-          material: MAGIC_REDSTONE_BLOCK
+          material: MAGIC_COSMIC_DUST
           amount: 1
         6:
           material_type: slimefun
@@ -582,7 +582,7 @@ MAGIC_GEC_MOB:
           amount: 1
         5:
           material_type: slimefun
-          material: MAGIC_REDSTONE_BLOCK
+          material: MAGIC_COSMIC_DUST
           amount: 1
         6:
           material_type: slimefun
@@ -623,7 +623,7 @@ MAGIC_GEC_MOB:
           amount: 1
         5:
           material_type: slimefun
-          material: MAGIC_REDSTONE_BLOCK
+          material: MAGIC_COSMIC_DUST
           amount: 1
         6:
           material_type: slimefun
@@ -664,7 +664,7 @@ MAGIC_GEC_MOB:
           amount: 1
         5:
           material_type: slimefun
-          material: MAGIC_REDSTONE_BLOCK
+          material: MAGIC_COSMIC_DUST
           amount: 1
         6:
           material_type: slimefun
@@ -705,7 +705,7 @@ MAGIC_GEC_MOB:
           amount: 1
         5:
           material_type: slimefun
-          material: MAGIC_REDSTONE_BLOCK
+          material: MAGIC_COSMIC_DUST
           amount: 1
         6:
           material_type: slimefun
@@ -746,7 +746,7 @@ MAGIC_GEC_MOB:
           amount: 1
         5:
           material_type: slimefun
-          material: MAGIC_REDSTONE_BLOCK
+          material: MAGIC_COSMIC_DUST
           amount: 1
         6:
           material_type: slimefun
@@ -787,7 +787,7 @@ MAGIC_GEC_MOB:
           amount: 1
         5:
           material_type: slimefun
-          material: MAGIC_REDSTONE_BLOCK
+          material: MAGIC_COSMIC_DUST
           amount: 1
         6:
           material_type: slimefun
@@ -828,7 +828,7 @@ MAGIC_GEC_MOB:
           amount: 1
         5:
           material_type: slimefun
-          material: MAGIC_REDSTONE_BLOCK
+          material: MAGIC_COSMIC_DUST
           amount: 1
         6:
           material_type: slimefun
@@ -1972,6 +1972,7 @@ MAGIC_STORAGE_UPGRADE_TABLE:
       - "&c&l放置后拆除将失去效果"
       - "&a"
       - "&a多方块机器" 
+      - "{#FF0000}樱{#FF4000}园{#FF8000}梦{#FFBF00}之{#FFFF00}乡{#BFFF00}粘{#80FF00}液{#40FF00}科{#00FF00}技{#00FF40}服{#00FF80}务{#00FFBF}器{#00FFFF}专{#00BFFF}属"
   recipe:
     1:
       material: PINK_CANDLE
@@ -2136,8 +2137,8 @@ MAGIC_STORAGE_UPGRADE_TABLE:
           material: BOOSTED_URANIUM
           amount: 1
         5:
-          material_type: slimefun
-          material: NTW_EXPANSION_STORAGE_UPGRADE_TABLE
+          material_type: saveditem
+          material: MFCT_3
           amount: 1
         6:
           material_type: slimefun
@@ -2161,8 +2162,8 @@ MAGIC_STORAGE_UPGRADE_TABLE:
     '魔法抽屉V':
       input:
         1:
-          material_type: slimefun
-          material: NTW_QUANTUM_STORAGE_2
+          material_type: saveditem
+          material: MFCT_4
           amount: 1
         2:
           material_type: slimefun
@@ -2193,8 +2194,8 @@ MAGIC_STORAGE_UPGRADE_TABLE:
           material: NETHER_ICE
           amount: 1
         9:
-          material_type: slimefun
-          material: NTW_QUANTUM_STORAGE_2
+          material_type: saveditem
+          material: MFCT_4
           amount: 1
       output:
           material_type: saveditem

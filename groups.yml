@@ -52,6 +52,15 @@ magic_mob_machines:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODEwMDkyZjE5MTIwODBjMGQyYjY4MjgzMDgyNThlZTU2NmU5ZjA2YmNjNTU1ZDg5NTkxODBlMjM4OTkzNWVjOSJ9fX0=
     glow: true
 
+magic_magic_items:
+  type: sub
+  parent: "magic"
+  item:
+    name: "&d&l魔法物品"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWYwYTY0ZGM3NmE2NTY3MDM3ZmQ5ZmUyZDQwYTk4MDNmMGZlYTg5MzFmMWM2NDI0ZWE0OGNhYjVmNjI5NTBlZSJ9fX0=
+    glow: true
+
 magic_resource:
   type: sub
   parent: "magic"
@@ -77,6 +86,24 @@ magic_animals:
     name: "&b&l魔法动物"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTYwNWQ1Yzk3NWJmNzg5OGEzNjFjNmU4NjAzOTI4ZWYwZTVmNWY4Yzk0N2YyNDQxOGI2NjQ0NGQ0MWYzMzlkYSJ9fX0=
+    glow: true
+
+magic_origin_resources: 
+  type: sub
+  parent: "magic"
+  item:
+    name: "&f&l起源矿物资源"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2U1MDlmMDZiOGRjMzg0MzU4ZmYyNDcyYWI2MmNlNmZkYzJmNjQ2ZTMzOGVmZGMzYzlmYjA1ZGRjNDMxZjY0In19fQ==
+    glow: true
+
+magic_origin_basic: 
+  type: sub
+  parent: "magic"
+  item:
+    name: "&f&l基础起源机器"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmY2MjRhNDRlNzdiOTVkYmUxY2M3MzU1MzY5NTNlODQwYmE2YzE5YjAxNTdjNTQ5ZDliODI1MzQ2NDhjOGNlNCJ9fX0=
     glow: true
 
 magic_origin: 

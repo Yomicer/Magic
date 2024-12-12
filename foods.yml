@@ -169,7 +169,7 @@ MAGIC_FOODS_A_4:
       - "&d会有神奇的事情发生~"
       - "&a"
       - "&b食物"
-  script: "a_3"
+  script: "a_4"
   nutrition: 5
   saturation: 5
   eatseconds: 1.6
@@ -179,7 +179,7 @@ MAGIC_FOODS_A_4:
 MAGIC_FOODS_A_5:
   item_group: magic_snow
   item:
-    name: "&b 烤火鸡"
+    name: "&b烤火鸡"
     material: COOKED_CHICKEN
     glow: true
     lore: 
@@ -232,7 +232,7 @@ MAGIC_FOODS_A_7:
       - "&a" 
       - "&a传统英式 &c香料浓郁~"
       - "&e节日甜蜜 &a提味白兰地~"
-      - "&d会有神奇的事情发生~"
+      - "&d可以让你摆脱所有效果~"
       - "&a"
       - "&b食物"
   script: "a_7"

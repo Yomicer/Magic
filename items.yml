@@ -4392,21 +4392,21 @@ MAGIC_INFINITE_INGOT:
 MAGIC_INFINITE_VOID_HARVESTER_UP: 
   item_group: magic_infinite_machines
   item:
-    name: "&8魔法虚空核心"
+    name: "&8无尽魔法核心"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzUxMGQ5YjYxY2EzMzNkMjk0NmM2MWEyNmNiMTdlMzc0ZDRhZGI1NzNiNDZhZmRlYmFmODlmNjViYTVkNGFlMiJ9fX0=
     glow: true
     lore:
       - "&a"
-      - "&7强力的机器核心"
-      - "&7似乎和无尽虚空收集者有着相似的属性"
+      - "&7它融合了最尖端的技术与古老魔法的力量"
+      - "&7专为&c魔法机器&7系列设计的高级能量源和控制系统"
       - "&a"
       - "&c魔法材料"
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     1:
       material_type: slimefun
-      material: INFINITE_MACHINE_CIRCUIT
+      material: MAGIC_VOID_INGOT
       amount: 1
     2:
       material_type: slimefun
@@ -4422,7 +4422,7 @@ MAGIC_INFINITE_VOID_HARVESTER_UP:
       amount: 1
     5:
       material_type: slimefun
-      material: MAGIC_VOID_INGOT
+      material: MAGIC_AUTHOR_INGOT
       amount: 1
     6:
       material_type: slimefun
@@ -4438,7 +4438,7 @@ MAGIC_INFINITE_VOID_HARVESTER_UP:
       amount: 1
     9:
       material_type: slimefun
-      material: INFINITE_MACHINE_CIRCUIT
+      material: MAGIC_INFINITE_INGOT
       amount: 1
 
 MAGIC_MOB_SIMULATION_CHAMBER_UP: 
@@ -6213,11 +6213,12 @@ MAGIC_BUDDING_AMETHYST_SPIRIT:
     lore: 
       - "&a"
       - "&7紫水晶母岩自主诞生了灵智"
-      - "&7据说100个紫水晶母岩才会诞生一个精魄"
+      - "&7平均每50个紫水晶母岩才会诞生一个精魄"
+      - "&7挖掘紫水晶母岩有概率掉落"
       - "&a"
       - "&a自然资源"
   drop_from: BUDDING_AMETHYST
-  drop_chance: 1
+  drop_chance: 2
   drop_amount: 1
 
 MAGIC_ANIMALS_CHICKEN:
@@ -6871,6 +6872,7 @@ MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_paper:
 MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_1: 
   item_group: magic_storage
   item:
+    name: "{#FF0000}魔{#FF4000}法{#FF8000}抽{#FFBF00}屉{#FFFF00} {#BFFF00}I{#80FF00}（{#40FF00}全{#00FF00}部{#00FF40}过{#00FF80}程{#00FFBF}请{#00FFFF}使{#00BFFF}用{#0080FF}魔{#0040FF}法{#0000FF}抽{#4000FF}屉{#8000FF}升{#BF00FF}级{#FF00FF}台{#FF00BF}）"
     material_type: saveditem
     material: MFCT_1
   recipe_type: MAGIC_STORAGE_UPGRADE_TABLE
@@ -6915,6 +6917,7 @@ MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_1:
 MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_2: 
   item_group: magic_storage
   item:
+    name: "{#FF0000}魔{#FF4000}法{#FF8000}抽{#FFBF00}屉{#FFFF00} I{#BFFF00}I{#80FF00}（{#40FF00}全{#00FF00}部{#00FF40}过{#00FF80}程{#00FFBF}请{#00FFFF}使{#00BFFF}用{#0080FF}魔{#0040FF}法{#0000FF}抽{#4000FF}屉{#8000FF}升{#BF00FF}级{#FF00FF}台{#FF00BF}）"
     material_type: saveditem
     material: MFCT_2
   recipe_type: MAGIC_STORAGE_UPGRADE_TABLE
@@ -6959,6 +6962,7 @@ MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_2:
 MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_3: 
   item_group: magic_storage
   item:
+    name: "{#FF0000}魔{#FF4000}法{#FF8000}抽{#FFBF00}屉{#FFFF00} II{#BFFF00}I{#80FF00}（{#40FF00}全{#00FF00}部{#00FF40}过{#00FF80}程{#00FFBF}请{#00FFFF}使{#00BFFF}用{#0080FF}魔{#0040FF}法{#0000FF}抽{#4000FF}屉{#8000FF}升{#BF00FF}级{#FF00FF}台{#FF00BF}）"
     material_type: saveditem
     material: MFCT_3
   recipe_type: MAGIC_STORAGE_UPGRADE_TABLE
@@ -7003,6 +7007,7 @@ MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_3:
 MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_4: 
   item_group: magic_storage
   item:
+    name: "{#FF0000}魔{#FF4000}法{#FF8000}抽{#FFBF00}屉{#FFFF00} I{#BFFF00}V{#80FF00}（{#40FF00}全{#00FF00}部{#00FF40}过{#00FF80}程{#00FFBF}请{#00FFFF}使{#00BFFF}用{#0080FF}魔{#0040FF}法{#0000FF}抽{#4000FF}屉{#8000FF}升{#BF00FF}级{#FF00FF}台{#FF00BF}）"
     material_type: saveditem
     material: MFCT_4
   recipe_type: MAGIC_STORAGE_UPGRADE_TABLE
@@ -7024,8 +7029,8 @@ MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_4:
           material: BOOSTED_URANIUM
           amount: 1
         5:
-          material_type: slimefun
-          material: NTW_EXPANSION_STORAGE_UPGRADE_TABLE
+          material_type: saveditem
+          material: MFCT_3
           amount: 1
         6:
           material_type: slimefun
@@ -7047,13 +7052,14 @@ MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_4:
 MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_5: 
   item_group: magic_storage
   item:
+    name: "{#FF0000}魔{#FF4000}法{#FF8000}抽{#FFBF00}屉{#FFFF00} {#BFFF00}V{#80FF00}（{#40FF00}全{#00FF00}部{#00FF40}过{#00FF80}程{#00FFBF}请{#00FFFF}使{#00BFFF}用{#0080FF}魔{#0040FF}法{#0000FF}抽{#4000FF}屉{#8000FF}升{#BF00FF}级{#FF00FF}台{#FF00BF}）"
     material_type: saveditem
     material: MFCT_5
   recipe_type: MAGIC_STORAGE_UPGRADE_TABLE
   recipe:
         1:
-          material_type: slimefun
-          material: NTW_QUANTUM_STORAGE_2
+          material_type: saveditem
+          material: MFCT_4
           amount: 1
         2:
           material_type: slimefun
@@ -7084,14 +7090,15 @@ MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_5:
           material: NETHER_ICE
           amount: 1
         9:
-          material_type: slimefun
-          material: NTW_QUANTUM_STORAGE_2
+          material_type: saveditem
+          material: MFCT_4
           amount: 1
 
 
 MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_6: 
   item_group: magic_storage
   item:
+    name: "{#FF0000}魔{#FF4000}法{#FF8000}抽{#FFBF00}屉{#FFFF00} V{#BFFF00}I{#80FF00}（{#40FF00}全{#00FF00}部{#00FF40}过{#00FF80}程{#00FFBF}请{#00FFFF}使{#00BFFF}用{#0080FF}魔{#0040FF}法{#0000FF}抽{#4000FF}屉{#8000FF}升{#BF00FF}级{#FF00FF}台{#FF00BF}）"
     material_type: saveditem
     material: MFCT_6
   recipe_type: MAGIC_STORAGE_UPGRADE_TABLE
@@ -7137,6 +7144,7 @@ MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_6:
 MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_7: 
   item_group: magic_storage
   item:
+    name: "{#FF0000}魔{#FF4000}法{#FF8000}抽{#FFBF00}屉{#FFFF00} V{#BFFF00}II{#80FF00}（{#40FF00}全{#00FF00}部{#00FF40}过{#00FF80}程{#00FFBF}请{#00FFFF}使{#00BFFF}用{#0080FF}魔{#0040FF}法{#0000FF}抽{#4000FF}屉{#8000FF}升{#BF00FF}级{#FF00FF}台{#FF00BF}）"
     material_type: saveditem
     material: MFCT_7
   recipe_type: MAGIC_STORAGE_UPGRADE_TABLE
@@ -7181,6 +7189,7 @@ MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_7:
 MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_8: 
   item_group: magic_storage
   item:
+    name: "{#FF0000}魔{#FF4000}法{#FF8000}抽{#FFBF00}屉{#FFFF00} VI{#BFFF00}II{#80FF00}（{#40FF00}全{#00FF00}部{#00FF40}过{#00FF80}程{#00FFBF}请{#00FFFF}使{#00BFFF}用{#0080FF}魔{#0040FF}法{#0000FF}抽{#4000FF}屉{#8000FF}升{#BF00FF}级{#FF00FF}台{#FF00BF}）"
     material_type: saveditem
     material: MFCT_8
   recipe_type: MAGIC_STORAGE_UPGRADE_TABLE
@@ -7225,6 +7234,7 @@ MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_8:
 MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_9: 
   item_group: magic_storage
   item:
+    name: "{#FF0000}魔{#FF4000}法{#FF8000}抽{#FFBF00}屉{#FFFF00} I{#BFFF00}X{#80FF00}（{#40FF00}全{#00FF00}部{#00FF40}过{#00FF80}程{#00FFBF}请{#00FFFF}使{#00BFFF}用{#0080FF}魔{#0040FF}法{#0000FF}抽{#4000FF}屉{#8000FF}升{#BF00FF}级{#FF00FF}台{#FF00BF}）"
     material_type: saveditem
     material: MFCT_9
   recipe_type: MAGIC_STORAGE_UPGRADE_TABLE
@@ -7269,6 +7279,7 @@ MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_9:
 MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_10: 
   item_group: magic_storage
   item:
+    name: "{#FF0000}魔{#FF4000}法{#FF8000}抽{#FFBF00}屉{#FFFF00} {#BFFF00}X{#80FF00}（{#40FF00}全{#00FF00}部{#00FF40}过{#00FF80}程{#00FFBF}请{#00FFFF}使{#00BFFF}用{#0080FF}魔{#0040FF}法{#0000FF}抽{#4000FF}屉{#8000FF}升{#BF00FF}级{#FF00FF}台{#FF00BF}）"
     material_type: saveditem
     material: MFCT_10
   recipe_type: MAGIC_STORAGE_UPGRADE_TABLE
@@ -7313,6 +7324,7 @@ MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_10:
 MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_11: 
   item_group: magic_storage
   item:
+    name: "{#FF0000}魔{#FF4000}法{#FF8000}抽{#FFBF00}屉{#FFFF00} X{#BFFF00}I{#80FF00}（{#40FF00}全{#00FF00}部{#00FF40}过{#00FF80}程{#00FFBF}请{#00FFFF}使{#00BFFF}用{#0080FF}魔{#0040FF}法{#0000FF}抽{#4000FF}屉{#8000FF}升{#BF00FF}级{#FF00FF}台{#FF00BF}）"
     material_type: saveditem
     material: MFCT_11
   recipe_type: MAGIC_STORAGE_UPGRADE_TABLE
@@ -7358,6 +7370,7 @@ MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_11:
 MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_12: 
   item_group: magic_storage
   item:
+    name: "{#FF0000}魔{#FF4000}法{#FF8000}抽{#FFBF00}屉{#FFFF00} X{#BFFF00}II{#80FF00}（{#40FF00}全{#00FF00}部{#00FF40}过{#00FF80}程{#00FFBF}请{#00FFFF}使{#00BFFF}用{#0080FF}魔{#0040FF}法{#0000FF}抽{#4000FF}屉{#8000FF}升{#BF00FF}级{#FF00FF}台{#FF00BF}）"
     material_type: saveditem
     material: MFCT_12
   recipe_type: MAGIC_STORAGE_UPGRADE_TABLE
@@ -7402,6 +7415,7 @@ MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_12:
 MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_13: 
   item_group: magic_storage
   item:
+    name: "{#FF0000}魔{#FF4000}法{#FF8000}抽{#FFBF00}屉{#FFFF00} XI{#BFFF00}II{#80FF00}（{#40FF00}全{#00FF00}部{#00FF40}过{#00FF80}程{#00FFBF}请{#00FFFF}使{#00BFFF}用{#0080FF}魔{#0040FF}法{#0000FF}抽{#4000FF}屉{#8000FF}升{#BF00FF}级{#FF00FF}台{#FF00BF}）"
     material_type: saveditem
     material: MFCT_13
   recipe_type: MAGIC_STORAGE_UPGRADE_TABLE
@@ -7452,6 +7466,7 @@ MAGIC_MUSIC:
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWM2MmZkMGQ0MTIzZGVlZWI4MjRhMDBhMTViMDliOTYwMzllZDMzNTk5YzA3N2VmNjc4MjEyMjZhMThmMWYxMSJ9fX0=
     lore: 
+      - "{#FFD9EC}&kl{#FDB7D4}魔{#FD8EB7}法{#FA6CA5}工{#E84C8A}具{#D02C71}&kl"
       - "&7相传这是坤坤练习时候用的音乐盒"
       - "&7鸽鸽的音乐可以让鸡快速成长"
       - "&7消耗巨量体力"
@@ -7504,7 +7519,7 @@ MAGIC_DUST_PICKAXE:
     name: "&a&l魔&b&l法&c&l磨&d&l粉&e&l镐"
     material: DIAMOND_PICKAXE
     lore: 
-      - " {#FFD9EC}&kl{#FDB7D4}魔{#FD8EB7}法{#FA6CA5}工{#E84C8A}具{#D02C71}&kl"
+      - "{#FFD9EC}&kl{#FDB7D4}魔{#FD8EB7}法{#FA6CA5}工{#E84C8A}具{#D02C71}&kl"
       - "{#FFD9EC}可以磨粉的镐子~"
       - "{#FFD9EC}可修复哦~"
       - "{#FFD9EC}使用方式："
@@ -7537,4 +7552,1064 @@ MAGIC_DUST_PICKAXE:
     8:
       material_type: slimefun
       material: MAGIC_BLISTERING_INGOT_3
+      amount: 1
+
+MAGIC_ORIGIN_COBBLESTONE: 
+  item_group: magic_origin_resources
+  placeable: true
+  item:
+    name: "{#FFFFFF}起{#D0E8F7}源{#A1D1F1}圆{#6495ED}石"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWU1NGFiYmM2NWIxM2E0MmMyOTU5MGEwY2Y5ZDNlMDA3MDJkMWU2MGQ5NzRmOTI4NmE3YzE3MjY3ZjIyODJjOSJ9fX0=
+  recipe_type: MAGIC_ORIGIN_COBBLESTONE_GEN_BASIC
+
+##以下为矿锭------
+
+
+##起源强化合金锭
+MAGIC_ORIGIN_REINFORCED_ALLOY_INGOT:
+  item_group: magic_origin_resources
+  item:
+    name: "{#FFFFFF}&l起{#E6F3FF}&l源{#CCE5FF}&l强{#99CCFF}&l化{#66B2FF}&l合{#3399FF}&l金{#00A9FF}&l锭"
+    material: IRON_INGOT
+    glow: true
+  recipe_type: SMELTERY
+  recipe:
+    1: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_DAMASCUS_STEEL_INGOT
+      amount: 1
+    2: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_HARDENED_METAL_INGOT
+      amount: 1
+    3: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_CORINTHIAN_BRONZE_INGOT
+      amount: 1
+    4: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_SOLDER_INGOT
+      amount: 1
+    5: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_BILLON_INGOT
+      amount: 1
+    6: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_GOLD_INGOT_24K
+      amount: 1
+
+##起源硬化金属
+MAGIC_ORIGIN_HARDENED_METAL_INGOT:
+  item_group: magic_origin_resources
+  item:
+    name: "{#FFFFFF}&l起{#E6F3FF}&l源{#CCE5FF}&l硬{#99CCFF}&l化{#66B2FF}&l金{#00BFFF}&l属"
+    material: IRON_INGOT
+    glow: true
+  recipe_type: SMELTERY
+  recipe:
+    1: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_DAMASCUS_STEEL_INGOT
+      amount: 1
+    2: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_DURALUMIN_INGOT
+      amount: 1
+    3: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_COMPRESSED_CARBON
+      amount: 1
+    4: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_ALUMINUM_BRONZE_INGOT
+      amount: 1
+
+##起源大马士革钢锭
+MAGIC_ORIGIN_DAMASCUS_STEEL_INGOT:
+  item_group: magic_origin_resources
+  item:
+    name: "{#FFFFFF}起{#E6F3FF}源{#CCE5FF}大{#99CCFF}马{#66B2FF}士{#3399FF}格{#00BFFF}钢{#00BFFF}锭"
+    material: IRON_INGOT
+    glow: true
+  recipe_type: SMELTERY
+  recipe:
+    1: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_STEEL_INGOT
+      amount: 1
+    2: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_IRON_DUST
+      amount: 1
+    3: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_CARBON
+      amount: 1
+    4: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_IRON_INGOT
+      amount: 1
+
+##起源钢锭
+MAGIC_ORIGIN_STEEL_INGOT:
+  item_group: magic_origin_resources
+  item:
+    name: "{#FFFFFF}起{#CCE5FF}源{#99CCFF}钢{#00BFFF}锭"
+    material: IRON_INGOT
+    glow: true
+  recipe_type: SMELTERY
+  recipe:
+    1: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_IRON_DUST
+      amount: 1
+    2: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_CARBON
+      amount: 1
+    3: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_IRON_INGOT
+      amount: 1
+
+##起源青铜锭
+MAGIC_ORIGIN_BRONZE_INGOT:
+  item_group: magic_origin_resources
+  item:
+    name: "{#FFFFFF}起{#CCE5FF}源{#99CCFF}青{#66B2FF}铜{#00BFFF}锭"
+    material: BRICK
+    glow: true
+  recipe_type: SMELTERY
+  recipe:
+    1: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_COPPER_DUST
+      amount: 1
+    2: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_TIN_DUST
+      amount: 1
+    3: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_COPPER_INGOT
+      amount: 1
+
+##起源硬铝锭
+MAGIC_ORIGIN_DURALUMIN_INGOT:
+  item_group: magic_origin_resources
+  item:
+    name: "{#FFFFFF}起{#CCE5FF}源{#99CCFF}硬{#66B2FF}铝{#00BFFF}锭"
+    material: IRON_INGOT
+    glow: true
+  recipe_type: SMELTERY
+  recipe:
+    1: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_ALUMINUM_DUST
+      amount: 1
+    2: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_COPPER_DUST
+      amount: 1
+    3: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_ALUMINUM_INGOT
+      amount: 1
+
+##起源银铜合金锭
+MAGIC_ORIGIN_BILLON_INGOT:
+  item_group: magic_origin_resources
+  item:
+    name: "{#FFFFFF}起{#E6F3FF}源{#CCE5FF}银{#99CCFF}铜{#66B2FF}合{#3399FF}金{#00A9FF}锭"
+    material: IRON_INGOT
+    glow: true
+  recipe_type: SMELTERY
+  recipe:
+    1: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_SILVER_DUST
+      amount: 1
+    2: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_COPPER_DUST
+      amount: 1
+    3: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_SILVER_INGOT
+      amount: 1
+
+##起源黄铜锭
+MAGIC_ORIGIN_BRASS_INGOT:
+  item_group: magic_origin_resources
+  item:
+    name: "{#FFFFFF}起{#CCE5FF}源{#99CCFF}黄{#66B2FF}铜{#00BFFF}锭"
+    material: GOLD_INGOT
+    glow: true
+  recipe_type: SMELTERY
+  recipe:
+    1: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_COPPER_DUST
+      amount: 1
+    2: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_ZINC_DUST
+      amount: 1
+    3: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_COPPER_INGOT
+      amount: 1
+    
+##起源铝黄铜锭
+MAGIC_ORIGIN_ALUMINUM_BRASS_INGOT:
+  item_group: magic_origin_resources
+  item:
+    name: "{#FFFFFF}起{#E6F3FF}源{#CCE5FF}铝{#99CCFF}黄{#66B2FF}铜{#3399FF}锭"
+    material: GOLD_INGOT
+    glow: true
+  recipe_type: SMELTERY
+  recipe:
+    1: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_ALUMINUM_DUST
+      amount: 1
+    2: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_BRASS_INGOT
+      amount: 1
+    3: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_ALUMINUM_INGOT
+      amount: 1
+
+##起源铝青铜锭
+MAGIC_ORIGIN_ALUMINUM_BRONZE_INGOT:
+  item_group: magic_origin_resources
+  item:
+    name: "{#FFFFFF}起{#E6F3FF}源{#CCE5FF}铝{#99CCFF}青{#66B2FF}铜{#3399FF}锭"
+    material: GOLD_INGOT
+    glow: true
+  recipe_type: SMELTERY
+  recipe:
+    1: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_ALUMINUM_DUST
+      amount: 1
+    2: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_BRONZE_INGOT
+      amount: 1
+    3: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_ALUMINUM_INGOT
+      amount: 1
+
+##起源柯林斯青铜锭
+MAGIC_ORIGIN_CORINTHIAN_BRONZE_INGOT:
+  item_group: magic_origin_resources
+  item:
+    name: "{#FFFFFF}起{#E6F3FF}源{#CCE5FF}科{#99CCFF}林{#66B2FF}斯{#3399FF}青{#0099FF}铜{#00A9FF}锭"
+    material: GOLD_INGOT
+    glow: true
+  recipe_type: SMELTERY
+  recipe:
+    1: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_SILVER_DUST
+      amount: 1
+    2: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_GOLD_DUST
+      amount: 1
+    3: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_COPPER_DUST
+      amount: 1
+    4: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_BRONZE_INGOT
+      amount: 1
+
+##起源焊锡锭
+MAGIC_ORIGIN_SOLDER_INGOT:
+  item_group: magic_origin_resources
+  item:
+    name: "{#FFFFFF}起{#E6F3FF}源{#CCE5FF}焊{#99CCFF}锡{#66B2FF}锭"
+    material: IRON_INGOT
+    glow: true
+  recipe_type: SMELTERY
+  recipe:
+    1: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_LEAD_DUST
+      amount: 1
+    2: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_TIN_DUST
+      amount: 1
+    3: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_LEAD_INGOT
+      amount: 1
+
+##起源镍锭
+MAGIC_ORIGIN_NICKEL_INGOT:
+  item_group: magic_origin_resources
+  item:
+    name: "{#FFFFFF}起{#E6F3FF}源{#CCE5FF}镍{#99CCFF}锭"
+    material: IRON_INGOT
+    glow: true
+  recipe_type: SMELTERY
+  recipe:
+    1: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_IRON_DUST
+      amount: 1
+    2: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_IRON_INGOT
+      amount: 1
+    3: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_COPPER_DUST
+      amount: 1
+
+##起源钴锭
+MAGIC_ORIGIN_COBALT_INGOT:
+  item_group: magic_origin_resources
+  item:
+    name: "{#FFFFFF}起{#DDEEFF}源{#AABBEF}钴{#778EDD}锭"
+    material: IRON_INGOT
+    glow: true
+  recipe_type: SMELTERY
+  recipe:
+    1: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_IRON_DUST
+      amount: 1
+    2: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_COPPER_DUST
+      amount: 1
+    3: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_NICKEL_INGOT
+      amount: 1
+
+##起源硅铁
+MAGIC_ORIGIN_FERROSILICON:
+  item_group: magic_origin_resources
+  item:
+    name: "{#FFFFFF}起{#E6F3FF}源{#CCE5FF}硅{#99CCFF}铁"
+    material: IRON_INGOT
+    glow: true
+  recipe_type: SMELTERY
+  recipe:
+    1: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_IRON_INGOT
+      amount: 1
+    2: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_IRON_DUST
+      amount: 1
+    3: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_SILICON
+      amount: 1
+
+##矿粉
+
+MAGIC_ORIGIN_IRON_DUST: 
+  item_group: magic_origin_resources
+  placeable: true
+  item:
+    name: "{#FFFFFF}起{#FFDD73}源{#FFAA00}铁{#FFA500}粉"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTgwYTY3YzBlZmE2YTgwZjYxYjk5YTg1ZTc0NWU2MWFmMDNlMTlkZWViNjFlYmQ5MWIyZDhkNTE3M2U2MzkxNCJ9fX0=
+  recipe_type: MAGIC_ORIGIN_BASIC_DUST_EXTRACTOR
+  
+MAGIC_ORIGIN_GOLD_DUST: 
+  item_group: magic_origin_resources
+  placeable: true
+  item:
+    name: "{#FFFFFF}起{#FFDD73}源{#FFAA00}金{#FFA500}粉"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmY1MDFmYmQyYzVkMDkzMjk5YWE5Mzk4YWFhMmViY2NlYWQ1NDFlYmQ4MDYxNmViNDRjMjUzNjY0MzBiYTY0In19fQ==
+  recipe_type: MAGIC_ORIGIN_BASIC_DUST_EXTRACTOR
+
+MAGIC_ORIGIN_COPPER_DUST: 
+  item_group: magic_origin_resources
+  placeable: true
+  item:
+    name: "{#FFFFFF}起{#FFDD73}源{#FFAA00}铜{#FFA500}粉"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODZhMmMwYThjNDUwYTc1NzJhMmNmNTdjNTdkMzgxOGI4OTczNDAxMmUzZDc0OWYzODRjZDdlMTllY2NhMTUxYSJ9fX0=
+  recipe_type: MAGIC_ORIGIN_BASIC_DUST_EXTRACTOR
+
+MAGIC_ORIGIN_TIN_DUST: 
+  item_group: magic_origin_resources
+  placeable: true
+  item:
+    name: "{#FFFFFF}起{#FFDD73}源{#FFAA00}锡{#FFA500}粉"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDkxMTAwNTQ2MDU5ZDI1YWU1NGUzNmUzMWRlNGQwNDY0OWJiOTc0ZDVmNDE1ZjA4Y2Q5Y2JkYjlhNTQ2NjE2In19fQ==
+  recipe_type: MAGIC_ORIGIN_BASIC_DUST_EXTRACTOR
+  
+MAGIC_ORIGIN_SILVER_DUST: 
+  item_group: magic_origin_resources
+  placeable: true
+  item:
+    name: "{#FFFFFF}起{#FFDD73}源{#FFAA00}银{#FFA500}粉"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTc5NjI4ZDlhNjQ3YjFlNDJhODQ2MjA4M2FhMzUxYzMxMTgzZTRiODgyZmZmZjA3ODZjMTRmYTg0ZjEyNzljZiJ9fX0=
+  recipe_type: MAGIC_ORIGIN_BASIC_DUST_EXTRACTOR
+
+MAGIC_ORIGIN_LEAD_DUST: 
+  item_group: magic_origin_resources
+  placeable: true
+  item:
+    name: "{#FFFFFF}起{#FFDD73}源{#FFAA00}铅{#FFA500}粉"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTQ5Y2E4NGQ0YTEzNzQ2NmJiOWJlY2RlOWM1MWJhYmUwNDRhYTJlYzg4YjY4YzE4ODEwOTM0NWVlYTI4MDFiYiJ9fX0=
+  recipe_type: MAGIC_ORIGIN_BASIC_DUST_EXTRACTOR
+
+MAGIC_ORIGIN_ALUMINUM_DUST: 
+  item_group: magic_origin_resources
+  placeable: true
+  item:
+    name: "{#FFFFFF}起{#FFDD73}源{#FFAA00}铝{#FFA500}粉"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTM2NWM3Nzg2OWRiMjZlMzZkMTFlYTU5NGJiNWQwNzA0OWQ0MmZmMzE2NDUzOWI1YjBmYjUyNDA2ZmJhMDllNSJ9fX0=
+  recipe_type: MAGIC_ORIGIN_BASIC_DUST_EXTRACTOR
+  
+MAGIC_ORIGIN_ZINC_DUST: 
+  item_group: magic_origin_resources
+  placeable: true
+  item:
+    name: "{#FFFFFF}起{#FFDD73}源{#FFAA00}锌{#FFA500}粉"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjRkZWFmNmY4MmQzNTAzNjkyMDA3ODgxYjkyMThmZjM3MTIwNTg1NjY5NGVlMDhmMzdjNTYzYzM2NTdiY2I4YSJ9fX0=
+  recipe_type: MAGIC_ORIGIN_BASIC_DUST_EXTRACTOR
+
+MAGIC_ORIGIN_MAGNESIUM_DUST: 
+  item_group: magic_origin_resources
+  placeable: true
+  item:
+    name: "{#FFFFFF}起{#FFDD73}源{#FFAA00}镁{#FFA500}粉"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTQwMDlhMjI4YmJjZDNiMWExOTczNmU1ZTljY2RlMDc0MGUwMzczMzRjYzE1ZjQ3YzkyY2Q0ZDI2NTBiMGNmNiJ9fX0=
+  recipe_type: MAGIC_ORIGIN_BASIC_DUST_EXTRACTOR
+
+##矿粉锭
+
+MAGIC_ORIGIN_IRON_INGOT: 
+  item_group: magic_origin_resources
+  placeable: true
+  item:
+    name: "{#FFFFFF}起{#D0E8F7}源{#A1D1F1}铁{#6495ED}锭"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODM3NTUzNGY4NzNmN2NiZDUxNjA4NGEyMDhiYWQzMDU0NjAwODYyMmY1ZTM3OTJiMzZiNTg1MzhhYTE1Njk0MyJ9fX0=
+  recipe_type: MAGIC_ORIGIN_BASIC_INGOT_FORMER
+  
+MAGIC_ORIGIN_COPPER_INGOT: 
+  item_group: magic_origin_resources
+  placeable: true
+  item:
+    name: "{#FFFFFF}起{#D0E8F7}源{#A1D1F1}铜{#6495ED}锭"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmYxMjk1OGY5NzMxZTJlMjFiYzIyNmE2MjBkYzFhMDYwY2Q2ZTBmNjBlYmU5MjM5NWM4ZGY4ZTBlZDk4ZmU2OCJ9fX0=
+  recipe_type: MAGIC_ORIGIN_BASIC_INGOT_FORMER
+
+MAGIC_ORIGIN_TIN_INGOT: 
+  item_group: magic_origin_resources
+  placeable: true
+  item:
+    name: "{#FFFFFF}起{#D0E8F7}源{#A1D1F1}锡{#6495ED}锭"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmYxN2MyN2Y2ZTU4MTk5ZDI0ODAzODY0YTBhOGY0OTIyNmYzMjdjNTlkOGQzMTQzNjQ3MzM0NTk5NTdhZWNlIn19fQ==
+  recipe_type: MAGIC_ORIGIN_BASIC_INGOT_FORMER
+  
+MAGIC_ORIGIN_SILVER_INGOT: 
+  item_group: magic_origin_resources
+  placeable: true
+  item:
+    name: "{#FFFFFF}起{#D0E8F7}源{#A1D1F1}银{#6495ED}锭"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzU5MmVjOWFhOTgwYzY4NTQ4ZDhiMzk2ZjYxZGY5ZGY1MTZkMDRiZmMyNjdjMzQ4NGQ1ZjJkYzg2OTkxZSJ9fX0=
+  recipe_type: MAGIC_ORIGIN_BASIC_INGOT_FORMER
+
+MAGIC_ORIGIN_LEAD_INGOT: 
+  item_group: magic_origin_resources
+  placeable: true
+  item:
+    name: "{#FFFFFF}起{#D0E8F7}源{#A1D1F1}铅{#6495ED}锭"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTM2ODM4YjYxOGY2NTE1ZWU1YjUyNGQ1YjI0ODY5Zjk0ZDQ1M2MxNTczZWFhZDdjMzYzZTA3N2NiNTFjOWY5In19fQ==
+  recipe_type: MAGIC_ORIGIN_BASIC_INGOT_FORMER
+
+MAGIC_ORIGIN_ALUMINUM_INGOT: 
+  item_group: magic_origin_resources
+  placeable: true
+  item:
+    name: "{#FFFFFF}起{#D0E8F7}源{#A1D1F1}铝{#6495ED}锭"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzI4NmE0NmIzODMzZmU4MDY5Nzg4OWZjNzBlNWY1NWM4NWYzODE1YjNlZmE4ZTY4MWQ0OTMwZjM3ZDNmN2U3In19fQ==
+  recipe_type: MAGIC_ORIGIN_BASIC_INGOT_FORMER
+  
+MAGIC_ORIGIN_ZINC_INGOT: 
+  item_group: magic_origin_resources
+  placeable: true
+  item:
+    name: "{#FFFFFF}起{#D0E8F7}源{#A1D1F1}锌{#6495ED}锭"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODAwM2MyMDdjNDAzYWYwNjkzYTllMjI2MWU2ODFkNTBlYzU3Y2Y4MmJlMmY1ZDM4NmIwYjlkMjcwN2Y3MTIwOSJ9fX0=
+  recipe_type: MAGIC_ORIGIN_BASIC_INGOT_FORMER
+
+MAGIC_ORIGIN_MAGNESIUM_INGOT: 
+  item_group: magic_origin_resources
+  placeable: true
+  item:
+    name: "{#FFFFFF}起{#D0E8F7}源{#A1D1F1}镁{#6495ED}锭"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWU2YzdkNDY2N2E4ZDc4OTBlNjlmYTUxNWMyYTE5MTEwYjEwYWE3MzM3OTdkYTc2ZjAyMTcxMDlmMWU0NzIxNyJ9fX0=
+  recipe_type: MAGIC_ORIGIN_BASIC_INGOT_FORMER
+
+MAGIC_ORIGIN_GOLD_INGOT: 
+  item_group: magic_origin_resources
+  placeable: true
+  item:
+    name: "{#FFFFFF}起{#D0E8F7}源{#A1D1F1}金{#6495ED}锭"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmE0ZmJkNTU4NjhkNDFmMTFiOGNlNGI1ZWI1Y2E3ZmY4OGYwNTM5N2Y2M2MyOTM2NTE4ZmVlNjA4YzRkNjE1OCJ9fX0=
+  recipe_type: MAGIC_ORIGIN_BASIC_INGOT_FORMER
+
+##碳-压缩碳
+
+MAGIC_ORIGIN_CARBON:
+  item_group: magic_origin_resources
+  placeable: true
+  item:
+    name: "{#DDDDDD}起{#AAAAAA}源{#777777}碳"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQ3YWZiNzBhZjVmNzQ3MWEzMWNjN2MxNDVhMDA4NzZhYjkzMzRmNmE3NTNkOWI0YmE0NzMxYmM2YzFmZTZiIn19fQ==
+  recipe_type: MAGIC_ORIGIN_PRESS
+
+MAGIC_ORIGIN_COMPRESSED_CARBON:
+  item_group: magic_origin_resources
+  placeable: true
+  item:
+    name: "{#FFFFFF}起{#E5E5E5}源{#CCCCCC}压{#B2B2B2}缩{#999999}炭"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQ3YWZiNzBhZjVmNzQ3MWEzMWNjN2MxNDVhMDA4NzZhYjkzMzRmNmE3NTNkOWI0YmE0NzMxYmM2YzFmZTZiIn19fQ==
+  recipe_type: COMPRESSOR
+  recipe:
+    1: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_CARBON
+      amount: 4
+
+##起源金锭6k-24k
+
+MAGIC_ORIGIN_GOLD_INGOT_24K: 
+  item_group: magic_origin_resources
+  item:
+    name: "{#FFFFFF}起{#FFFACD}源{#FFFFE0}金{#FFFFCC}锭{#FFFFB3}（{#FFFF99}2{#FFFF80}4{#FFFF66}克{#FFFF4D}拉{#FFE600}）{#FFD700}"
+    material: GOLD_INGOT
+    glow: true
+  recipe_type: SMELTERY
+  recipe:
+    1: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_GOLD_DUST
+      amount: 1
+    2: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_GOLD_INGOT_22K
+      amount: 1
+
+MAGIC_ORIGIN_GOLD_INGOT_22K: 
+  item_group: magic_origin_resources
+  item:
+    name: "{#FFFFFF}起{#FFFACD}源{#FFFFE0}金{#FFFFCC}锭{#FFFFB3}（{#FFFF99}2{#FFFF80}2{#FFFF66}克{#FFFF4D}拉{#FFE600}）{#FFD700}"
+    material: GOLD_INGOT
+    glow: true
+  recipe_type: SMELTERY
+  recipe:
+    1: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_GOLD_DUST
+      amount: 1
+    2: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_GOLD_INGOT_20K
+      amount: 1
+
+MAGIC_ORIGIN_GOLD_INGOT_20K: 
+  item_group: magic_origin_resources
+  item:
+    name: "{#FFFFFF}起{#FFFACD}源{#FFFFE0}金{#FFFFCC}锭{#FFFFB3}（{#FFFF99}2{#FFFF80}0{#FFFF66}克{#FFFF4D}拉{#FFE600}）{#FFD700}"
+    material: GOLD_INGOT
+    glow: true
+  recipe_type: SMELTERY
+  recipe:
+    1: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_GOLD_DUST
+      amount: 1
+    2: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_GOLD_INGOT_18K
+      amount: 1
+
+MAGIC_ORIGIN_GOLD_INGOT_18K: 
+  item_group: magic_origin_resources
+  item:
+    name: "{#FFFFFF}起{#FFFACD}源{#FFFFE0}金{#FFFFCC}锭{#FFFFB3}（{#FFFF99}1{#FFFF80}8{#FFFF66}克{#FFFF4D}拉{#FFE600}）{#FFD700}"
+    material: GOLD_INGOT
+    glow: true
+  recipe_type: SMELTERY
+  recipe:
+    1: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_GOLD_DUST
+      amount: 1
+    2: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_GOLD_INGOT_16K
+      amount: 1
+
+MAGIC_ORIGIN_GOLD_INGOT_16K: 
+  item_group: magic_origin_resources
+  item:
+    name: "{#FFFFFF}起{#FFFACD}源{#FFFFE0}金{#FFFFCC}锭{#FFFFB3}（{#FFFF99}1{#FFFF80}6{#FFFF66}克{#FFFF4D}拉{#FFE600}）{#FFD700}"
+    material: GOLD_INGOT
+    glow: true
+  recipe_type: SMELTERY
+  recipe:
+    1: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_GOLD_DUST
+      amount: 1
+    2: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_GOLD_INGOT_14K
+      amount: 1
+
+MAGIC_ORIGIN_GOLD_INGOT_14K: 
+  item_group: magic_origin_resources
+  item:
+    name: "{#FFFFFF}起{#FFFACD}源{#FFFFE0}金{#FFFFCC}锭{#FFFFB3}（{#FFFF99}1{#FFFF80}4{#FFFF66}克{#FFFF4D}拉{#FFE600}）{#FFD700}"
+    material: GOLD_INGOT
+    glow: true
+  recipe_type: SMELTERY
+  recipe:
+    1: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_GOLD_DUST
+      amount: 1
+    2: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_GOLD_INGOT_12K
+      amount: 1
+
+MAGIC_ORIGIN_GOLD_INGOT_12K: 
+  item_group: magic_origin_resources
+  item:
+    name: "{#FFFFFF}起{#FFFACD}源{#FFFFE0}金{#FFFFCC}锭{#FFFFB3}（{#FFFF99}1{#FFFF80}2{#FFFF66}克{#FFFF4D}拉{#FFE600}）{#FFD700}"
+    material: GOLD_INGOT
+    glow: true
+  recipe_type: SMELTERY
+  recipe:
+    1: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_GOLD_DUST
+      amount: 1
+    2: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_GOLD_INGOT_10K
+      amount: 1
+
+MAGIC_ORIGIN_GOLD_INGOT_10K: 
+  item_group: magic_origin_resources
+  item:
+    name: "{#FFFFFF}起{#FFFACD}源{#FFFFE0}金{#FFFFCC}锭{#FFFFB3}（{#FFFF99}1{#FFFF80}0{#FFFF66}克{#FFFF4D}拉{#FFE600}）{#FFD700}"
+    material: GOLD_INGOT
+    glow: true
+  recipe_type: SMELTERY
+  recipe:
+    1: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_GOLD_DUST
+      amount: 1
+    2: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_GOLD_INGOT_8K
+      amount: 1
+
+MAGIC_ORIGIN_GOLD_INGOT_8K: 
+  item_group: magic_origin_resources
+  item:
+    name: "{#FFFFFF}起{#FFFACD}源{#FFFFE0}金{#FFFFCC}锭{#FFFFB3}（{#FFFF99}8{#FFFF80}克{#FFFF66}拉{#FFFF4D}）{#FFE600}"
+    material: GOLD_INGOT
+    glow: true
+  recipe_type: SMELTERY
+  recipe:
+    1: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_GOLD_DUST
+      amount: 1
+    2: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_GOLD_INGOT_6K
+      amount: 1
+
+MAGIC_ORIGIN_GOLD_INGOT_6K: 
+  item_group: magic_origin_resources
+  item:
+    name: "{#FFFFFF}起{#FFFACD}源{#FFFFE0}金{#FFFFCC}锭{#FFFFB3}（{#FFFF99}6{#FFFF80}克{#FFFF66}拉{#FFFF4D}）{#FFE600}"
+    material: GOLD_INGOT
+    glow: true
+  recipe_type: SMELTERY
+  recipe:
+    1: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_GOLD_DUST
+      amount: 1
+    2: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_GOLD_INGOT
+      amount: 1
+
+##起源硅
+MAGIC_ORIGIN_SILICON:
+  item_group: magic_origin_resources
+  item:
+    name: "{#FFFFFF}起{#CCE5FF}源{#66B2FF}硅"
+    material: FIREWORK_STAR
+    glow: true
+  recipe_type: MAGIC_ORIGIN_PRESS
+  recipe:
+    1: 
+      material_type: slimefun
+      material: SILICON
+      amount: 64
+
+##起源红石粉
+MAGIC_ORIGIN_REDSTONE:
+  item_group: magic_origin_resources
+  placeable: true
+  item:
+    name: "{#FFFFFF}起{#FFDDDD}源{#FFB6B6}红{#FF8F8F}石{#FF4343}粉"
+    material: REDSTONE
+    glow: true
+  recipe_type: MAGIC_ORIGIN_PRESS
+  recipe:
+    1: 
+      material: REDSTONE
+      amount: 64
+
+##起源红石块
+MAGIC_ORIGIN_REDSTONE_BLOCK:
+  item_group: magic_origin_resources
+  placeable: true
+  item:
+    name: "{#FFFFFF}起{#FFDDDD}源{#FFB6B6}红{#FF8F8F}石{#FF4343}块"
+    material: redstone_block
+    glow: true
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_REDSTONE
+      amount: 1
+    2: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_REDSTONE
+      amount: 1
+    3: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_REDSTONE
+      amount: 1
+    4: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_REDSTONE
+      amount: 1
+    5: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_REDSTONE
+      amount: 1
+    6: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_REDSTONE
+      amount: 1
+    7: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_REDSTONE
+      amount: 1
+    8: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_REDSTONE
+      amount: 1
+    9: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_REDSTONE
+      amount: 1
+
+##起源镀金铁锭
+MAGIC_ORIGIN_GILDED_IRON:
+  item_group: magic_origin_resources
+  item:
+    name: "{#FFFFFF}&l起{#FFE6B3}&l源{#FFD480}&l镀{#FFC14D}&l金{#FFAE19}&l铁{#FF9C00}&l锭"
+    material: GOLD_INGOT
+    glow: true
+  recipe_type: SMELTERY
+  recipe:
+    1: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_GOLD_INGOT_24K
+      amount: 1
+    2: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_IRON_DUST
+      amount: 1
+
+
+##起源红石合金锭
+MAGIC_ORIGIN_REDSTONE_ALLOY:
+  item_group: magic_origin_resources
+  item:
+    name: "{#FFFFFF}起{#FFDDDD}源{#FFB6B6}红{#FF8F8F}石{#FF6969}合{#FF4343}金{#FF1D1D}锭"
+    material: BRICK
+    glow: true
+  recipe_type: SMELTERY
+  recipe:
+    1: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_REDSTONE
+      amount: 1
+    2: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_REDSTONE_BLOCK
+      amount: 1
+    3: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_FERROSILICON
+      amount: 1
+    4: 
+      material_type: slimefun
+      material: MAGIC_ORIGIN_HARDENED_METAL_INGOT
+      amount: 1
+
+
+##无尽矿机主世界/下届模块
+
+MAGIC_INFINITY_QUARRY_WORLD:
+  item_group: magic_infinite_machines
+  item:
+    name: "&a主世界模块"
+    material: GRASS_BLOCK
+    glow: true
+  recipe_type: SMELTERY
+  recipe:
+    1: 
+      material_type: slimefun
+      material: MACHINE_PLATE
+      amount: 1
+    2: 
+      material_type: slimefun
+      material: MACHINE_PLATE
+      amount: 1
+    3: 
+      material_type: slimefun
+      material: MACHINE_PLATE
+      amount: 1
+    4: 
+      material_type: slimefun
+      material: MACHINE_PLATE
+      amount: 1
+    5: 
+      material: GRASS_BLOCK
+      amount: 1
+    6: 
+      material_type: slimefun
+      material: MACHINE_PLATE
+      amount: 1
+    7: 
+      material_type: slimefun
+      material: MACHINE_PLATE
+      amount: 1
+    8: 
+      material_type: slimefun
+      material: MACHINE_PLATE
+      amount: 1
+    9: 
+      material_type: slimefun
+      material: MACHINE_PLATE
+      amount: 1
+
+MAGIC_INFINITY_QUARRY_NETHER:
+  item_group: magic_infinite_machines
+  item:
+    name: "&c下届模块"
+    material: NETHERRACK
+    glow: true
+  recipe_type: SMELTERY
+  recipe:
+    1: 
+      material_type: slimefun
+      material: MACHINE_PLATE
+      amount: 1
+    2: 
+      material_type: slimefun
+      material: MACHINE_PLATE
+      amount: 1
+    3: 
+      material_type: slimefun
+      material: MACHINE_PLATE
+      amount: 1
+    4: 
+      material_type: slimefun
+      material: MACHINE_PLATE
+      amount: 1
+    5: 
+      material: NETHERRACK
+      amount: 1
+    6: 
+      material_type: slimefun
+      material: MACHINE_PLATE
+      amount: 1
+    7: 
+      material_type: slimefun
+      material: MACHINE_PLATE
+      amount: 1
+    8: 
+      material_type: slimefun
+      material: MACHINE_PLATE
+      amount: 1
+    9: 
+      material_type: slimefun
+      material: MACHINE_PLATE
+      amount: 1
+
+
+MAGIC_EXP_COLLECTOR:
+  item_group: magic_magic_items
+  item:
+    name: "{#FF0000}&l魔{#FF4500}&l法{#FF6347}&l学{#FF7F50}&l识{#FFA07A}&l之{#E9967A}&l瓶"
+    material: glass_bottle
+    glow: true
+    lore: 
+      - "&7可以将经验封印入瓶内"
+      - "&a"
+      - "&c需要等级：100"
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  script: MFEXPBOTTLE
+  recipe:
+    4: 
+      material_type: slimefun
+      material: MAGIC_LUMP_5
+      amount: 1
+    5: 
+      material_type: slimefun
+      material: RAINBOW_GLASS_PANE
+      amount: 1
+    6: 
+      material_type: slimefun
+      material: MAGIC_LUMP_5
+      amount: 1
+
+    8: 
+      material_type: slimefun
+      material: MAGIC_LUMP_5
+
+MAGIC_EXP_BOTTLE:
+  item_group: magic_magic_items
+  item:
+    name: "{#FFFF00}&l魔{#FFD700}&l法{#FFEC8B}&l学{#FFE4B5}&l识{#F0E68C}&l之{#DAA520}&l瓶"
+    material: EXPERIENCE_BOTTLE
+    glow: true
+    lore: 
+      - "&7封印了100级经验"
+      - "&7打碎将会损失大部分"
+  recipe_type: MAGIC_RIGHT_CLICK_EXP_BOTTLE
+  script: MFEXPBOTTLE100
+
+MAGIC_INFINITE_STICK:
+  item_group: magic_magic_items
+  item:
+    name: "{#00BFFF}&l无{#87CEFA}&l尽{#FFAFAF}&l拐{#FF69B4}&l杖"
+    material: STICK
+    glow: true
+    lore: 
+      - "{#FFD9EC}&kl{#FDB7D4}魔{#FD8EB7}法{#FA6CA5}工{#E84C8A}具{#D02C71}&kl"
+      - "&a"
+      - "{#FFC0CB}可{#FFB6C1}以{#FFA07A}秒{#FA8072}杀{#E9967A}任{#F08080}何{#FF69B4}玩{#DB7093}家"
+      - "&a"
+      - "{#FFC0CB}一{#FFB6C1}次{#FFA07A}性{#FA8072}消{#E9967A}耗{#F08080}品"
+  recipe_type: MAGIC_WORKBENCH
+  script: INFINITE_STICK
+  recipe:
+    1: 
+      material_type: slimefun
+      material: INFINITE_INGOT
+      amount: 1
+    4: 
+      material_type: slimefun
+      material: INFINITE_INGOT
+      amount: 1
+
+
+MAGIC_UNBREAKABLE_RUNE:
+  item_group: magic_magic_items
+  item:
+    name: "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l符{#FA8072}&l文{#E9967A}&l-{#F08080}&l无{#FF69B4}&l法{#DB7093}&l破{#FF69B4}&l坏"
+    material: FIREWORK_STAR
+    glow: true
+    lore: 
+      - "{#FFD9EC}&kl{#FDB7D4}魔{#FD8EB7}法{#FA6CA5}工{#E84C8A}具{#D02C71}&kl"
+      - "&a"
+      - "{#FFC0CB}这{#FFB6C1}是{#FFA07A}一{#FA8072}种{#E9967A}古{#F08080}老{#FF69B4}的{#DB7093}铭{#FFC0CB}文"
+      - "{#FFC0CB}可{#FFB6C1}以{#FFA07A}让{#FA8072}任{#E9967A}何{#F08080}工{#FF69B4}具{#DB7093}变{#FFC0CB}得{#FFB6C1}坚{#FFA07A}不{#FA8072}可{#E9967A}摧"
+      - "{#FFC0CB}似{#FFB6C1}乎{#FFA07A}还{#FA8072}可{#E9967A}以{#F08080}作{#FF69B4}为{#DB7093}某{#FFC0CB}些{#FFB6C1}机{#FFA07A}器{#FA8072}的{#E9967A}重{#F08080}要{#FF69B4}材{#DB7093}料"
+  recipe_type: MAGIC_WORKBENCH
+  script: UNBREAKABLE_RUNE
+  recipe:
+    1: 
+      material_type: slimefun
+      material: MAGIC_AUTHOR_INGOT
+      amount: 1
+    2: 
+      material_type: slimefun
+      material: UNBREAKABLE_RUNE
+      amount: 1
+    3: 
+      material_type: slimefun
+      material: MAGIC_COSMIC_DUST
+      amount: 1
+    4: 
+      material_type: slimefun
+      material: UNBREAKABLE_RUNE
+      amount: 1
+    5: 
+      material_type: slimefun
+      material: MAGIC_BUDDING_AMETHYST_SPIRIT
+      amount: 1
+    6: 
+      material_type: slimefun
+      material: UNBREAKABLE_RUNE
+      amount: 1
+    7: 
+      material_type: slimefun
+      material: MAGIC_COSMIC_DUST
+      amount: 1
+    8: 
+      material_type: slimefun
+      material: MAGIC_EXP_BOTTLE
+      amount: 1
+    9: 
+      material_type: slimefun
+      material: MAGIC_AUTHOR_INGOT
       amount: 1

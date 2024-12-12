@@ -117,4 +117,45 @@ MAGIC_STORAGE_UPGRADE_TABLE:
       - "&d&l一次性魔法"
       - "&c&l放置后拆除将失去效果"
       - "&a"
-      - "&a多方块机器" 
+      - "&a多方块机器"
+      - "{#FF0000}樱{#FF4000}园{#FF8000}梦{#FFBF00}之{#FFFF00}乡{#BFFF00}粘{#80FF00}液{#40FF00}科{#00FF00}技{#00FF40}服{#00FF80}务{#00FFBF}器{#00FFFF}专{#00BFFF}属" 
+
+MAGIC_ORIGIN_COBBLESTONE_GEN_BASIC:
+  name: "{#FFFFFF}起{#D0E8F7}源{#A1D1F1}圆{#6495ED}石{#808080}生{#808080}成{#808080}器"
+  lore:
+  - "&a"
+  - "&f可以生成起源圆石"
+  material: SEA_LANTERN
+  glow: true
+
+MAGIC_ORIGIN_BASIC_DUST_EXTRACTOR:
+  name: "{#FFFFFF}起{#B3B3FF}源{#6666FF}磨{#1919E6}粉{#0000FF}机"
+  material: FURNACE
+  lore:
+    - "&a"
+    - "&f将起源圆石变为起源矿粉"
+  glow: true
+
+MAGIC_ORIGIN_BASIC_INGOT_FORMER:
+  name: "{#FFFFFF}起{#B3B3FF}源{#6666FF}铸{#1919E6}锭{#0000FF}机"
+  material: FURNACE
+  lore:
+    - "&a"
+    - "&f将起源矿粉铸成起源矿锭"
+  glow: true
+
+MAGIC_ORIGIN_PRESS:
+  name: "{#FFFFFF}起{#FFE6B3}源{#FFD480}压{#FFC14D}缩{#FFAE19}机"
+  material: PISTON
+  glow: true
+  lore:
+    - "&a"
+    - "&f将自然矿物压缩"
+
+MAGIC_RIGHT_CLICK_EXP_BOTTLE: 
+  name: "&b通过右键物品"
+  material: glass_bottle
+  glow: true
+  lore:
+    - "&a"
+    - "&7右键魔法学识之瓶"
